@@ -5,9 +5,11 @@ const Navbar: React.FC = () => {
     <nav className="fixed top-0 left-0 w-full z-[100] nav-blur px-6 py-4">
       <div className="max-w-[1400px] mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="text-xl font-black tracking-tighter cyber-gradient-text uppercase cursor-pointer">
-            Carlota<span className="text-cyber-purple">.</span>AI
-          </div>
+          <img
+            src={`${import.meta.env.BASE_URL}LOGO_ISOLOGO HORIZONTAL BLANCO.png`}
+            alt="Carlota AI"
+            className="h-8 w-auto cursor-pointer"
+          />
         </div>
         
         <div className="hidden xl:flex items-center gap-6">
