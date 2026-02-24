@@ -6,9 +6,11 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-20">
           <div className="space-y-6">
-            <div className="text-3xl font-black tracking-tighter cyber-gradient-text uppercase">
-              Carlota<span className="text-cyber-purple">.</span>AI
-            </div>
+            <img
+              src={`${import.meta.env.BASE_URL}LOGO_ISOLOGO HORIZONTAL BLANCO.png`}
+              alt="Carlota AI"
+              className="h-10 w-auto"
+            />
             <p className="text-slate-500 max-w-xs font-light">
               Menos tareas. Más tiempo. Mejor negocio. <br/>Sistemas de automatización con IA.
             </p>
