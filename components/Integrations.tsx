@@ -34,9 +34,11 @@ const Integrations: React.FC = () => {
           
           {/* Central Logo (Static) */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-3xl flex items-center justify-center z-20 shadow-[0_0_50px_rgba(139,92,246,0.3)] border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl">
-            <div className="w-20 h-20 bg-gradient-to-tr from-cyber-purple to-cyber-cyan rounded-2xl flex items-center justify-center">
-               <span className="font-bold text-5xl text-white tracking-tighter">C</span>
-            </div>
+            <img
+              src={`${import.meta.env.BASE_URL}LOGO_FAVICON BLANCO.png`}
+              alt="Carlota AI"
+              className="w-20 h-20 object-contain"
+            />
           </div>
 
           {/* Orbiting Icons Container */}
