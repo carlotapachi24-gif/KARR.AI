@@ -10,7 +10,7 @@ const About: React.FC = () => {
               <img 
                 alt="Carlota - AI Architect" 
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" 
-                src="/carlota.png" 
+                src={`${import.meta.env.BASE_URL}Gemini_Generated_Image_d946i3d946i3d946-Photoroom (1).png`} 
               />
             </div>
             <div className="absolute -bottom-8 -right-8 glass-card p-8 rounded-3xl border-white/20 animate-float">
