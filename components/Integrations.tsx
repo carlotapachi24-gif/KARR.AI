@@ -17,7 +17,7 @@ const Integrations: React.FC = () => {
     <section className="py-32 px-6 relative overflow-hidden">
       <div className="max-w-7xl mx-auto text-center">
         <span className="text-cyber-purple font-mono text-xs tracking-[0.5em] uppercase mb-8 block reveal">Integraciones</span>
-        <h2 className="reveal text-4xl md:text-6xl font-black tracking-tighter uppercase mb-24">
+        <h2 className="reveal text-4xl md:text-6xl font-black tracking-tighter uppercase mb-16 md:mb-24">
           Conecta tu negocio con <br />
           <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-cyber-purple to-cyber-cyan pr-4">todas tus herramientas</span>
         </h2>
@@ -81,13 +81,62 @@ const Integrations: React.FC = () => {
           </motion.div>
         </div>
 
-        {/* Mobile View (Grid) */}
-        <div className="md:hidden grid grid-cols-4 gap-4 reveal">
-            {tools.map((tool) => (
-                <div key={tool.name} className="glass-card p-4 rounded-2xl flex flex-col items-center justify-center gap-2 aspect-square">
-                    <img src={tool.icon} alt={tool.name} className="w-8 h-8" />
+        {/* Mobile Orbit (Same layout as desktop, scaled down) */}
+        <div className="relative w-[320px] h-[320px] mx-auto md:hidden reveal-scale">
+          {/* Central Glow */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[220px] h-[220px] bg-cyber-purple/20 blur-[80px] rounded-full -z-10"></div>
+
+          {/* Orbital Rings */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[290px] h-[290px] border border-white/5 rounded-full"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[210px] h-[210px] border border-white/10 rounded-full"></div>
+
+          {/* Central Logo (Static) */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-2xl flex items-center justify-center z-20 shadow-[0_0_40px_rgba(139,92,246,0.3)] border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl">
+            <img
+              src={`${import.meta.env.BASE_URL}LOGO_FAVICON BLANCO.png`}
+              alt="Carlota AI"
+              className="w-14 h-14 object-contain"
+            />
+          </div>
+
+          {/* Orbiting Icons Container */}
+          <motion.div
+            className="absolute inset-0 rounded-full"
+            animate={{ rotate: 360 }}
+            transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+          >
+            {tools.map((tool, index) => {
+              const angle = (index * 360) / tools.length;
+
+              return (
+                <div
+                  key={tool.name}
+                  className="absolute top-1/2 left-1/2 w-14 h-14 -ml-7 -mt-7"
+                  style={{
+                    transform: `rotate(${angle}deg) translate(145px) rotate(-${angle}deg)`,
+                  }}
+                >
+                  {/* Counter-rotate to keep upright while orbiting */}
+                  <motion.div
+                    className="w-full h-full"
+                    animate={{ rotate: -360 }}
+                    transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+                  >
+                    {/* Scale on Hover (Independent of rotation) */}
+                    <motion.div
+                      className="w-full h-full glass-card rounded-xl flex items-center justify-center border-white/10 shadow-lg cursor-pointer"
+                      whileHover={{ scale: 1.15 }}
+                      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                    >
+                      <div className={`w-9 h-9 rounded-lg ${tool.bg} flex items-center justify-center`}>
+                        <img src={tool.icon} alt={tool.name} className="w-5 h-5 opacity-90" />
+                      </div>
+                    </motion.div>
+                  </motion.div>
                 </div>
-            ))}
+              );
+            })}
+          </motion.div>
         </div>
       </div>
     </section>
