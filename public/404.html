@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="es" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 | Carlota AI</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "void": "#050505",
+              "cyber-purple": "#8B5CF6",
+              "cyber-indigo": "#4F46E5",
+              "cyber-cyan": "#C4B5FD",
+            },
+            fontFamily: {
+              sans: ["Plus Jakarta Sans", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer base {
+        body {
+          @apply bg-void text-slate-200 overflow-x-hidden antialiased selection:bg-cyber-purple/30;
+          font-family: "Plus Jakarta Sans", sans-serif;
+        }
+      }
+
+      .mesh-gradient {
+        background:
+          radial-gradient(circle at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+          radial-gradient(circle at 50% 0%, hsla(225, 39%, 30%, 0.2) 0, transparent 50%),
+          radial-gradient(circle at 100% 0%, hsla(339, 49%, 30%, 0.15) 0, transparent 50%);
+        background-size: 200% 200%;
+        animation: gradient-move 20s ease infinite;
+      }
+
+      @keyframes gradient-move {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .grainy-overlay {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        opacity: 0.04;
+        pointer-events: none;
+        mix-blend-mode: overlay;
+      }
+
+      .glass-card {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fixed inset-0 grainy-overlay z-50 pointer-events-none"></div>
+    <div class="fixed inset-0 mesh-gradient -z-10"></div>
+
+    <main class="min-h-screen flex items-center justify-center px-6 py-16">
+      <section class="w-full max-w-3xl glass-card rounded-3xl p-8 sm:p-12 shadow-[0_20px_120px_-40px_rgba(139,92,246,0.55)]">
+        <a id="homeLink" href="/" class="inline-flex items-center">
+          <img
+            id="logoImg"
+            src="/LOGO_ISOLOGO HORIZONTAL BLANCO.png"
+            alt="Carlota AI"
+            class="h-8 sm:h-10 w-auto"
+          />
+        </a>
+
+        <div class="mt-10 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10">
+          <span class="material-symbols-outlined text-cyber-purple">error</span>
+          <span class="text-[10px] sm:text-xs font-bold tracking-[0.2em] uppercase text-white/70">Error 404</span>
+        </div>
+
+        <h1 class="mt-6 text-5xl sm:text-6xl md:text-7xl font-extrabold leading-[0.9] tracking-tight uppercase">
+          Esta pagina
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white">no existe</span>
+        </h1>
+
+        <p class="mt-6 text-slate-400 text-base sm:text-lg max-w-2xl">
+          El enlace puede estar roto o incompleto. Te llevo al inicio para que sigas navegando sin perder tiempo.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <a
+            id="homeCta"
+            href="/"
+            class="inline-flex items-center justify-center bg-white text-black px-6 py-3 rounded-xl text-xs sm:text-sm font-extrabold uppercase tracking-wider hover:bg-slate-200 transition-colors"
+          >
+            Volver al inicio
+          </a>
+          <a
+            id="contactCta"
+            href="/#contacto"
+            class="inline-flex items-center justify-center border border-white/20 bg-white/5 px-6 py-3 rounded-xl text-xs sm:text-sm font-extrabold uppercase tracking-wider hover:border-cyber-purple/50 hover:bg-white/10 transition-colors"
+          >
+            Ir a contacto
+          </a>
+        </div>
+
+        <p class="mt-8 text-sm text-slate-400">
+          Redirigiendo en <span id="countdown" class="text-white font-semibold">8</span>s...
+        </p>
+      </section>
+    </main>
+
+    <script>
+      (function () {
+        var homeLink = document.getElementById("homeLink");
+        var homeCta = document.getElementById("homeCta");
+        var contactCta = document.getElementById("contactCta");
+        var logoImg = document.getElementById("logoImg");
+        var countdownEl = document.getElementById("countdown");
+
+        function inferBasePath() {
+          var path = window.location.pathname || "/";
+          var segments = path.split("/").filter(Boolean);
+          if (!window.location.hostname.endsWith(".github.io")) {
+            return "/";
+          }
+          if (segments.length === 0) {
+            return "/";
+          }
+          return "/" + segments[0] + "/";
+        }
+
+        function stripBase(path, base) {
+          if (base === "/" || !path.startsWith(base)) {
+            return path;
+          }
+          var stripped = path.slice(base.length - 1);
+          return stripped || "/";
+        }
+
+        var base = inferBasePath();
+        var normalizedPath = stripBase(window.location.pathname, base).toLowerCase();
+        if (normalizedPath.length > 1 && normalizedPath.endsWith("/")) {
+          normalizedPath = normalizedPath.slice(0, -1);
+        }
+
+        var sectionByPath = {
+          "/inicio": "#inicio",
+          "/resultados": "#resultados",
+          "/servicios": "#automatizaciones",
+          "/automatizaciones": "#automatizaciones",
+          "/casos": "#casos",
+          "/como-funciona": "#como-funciona",
+          "/sobre-mi": "#sobre-mi",
+          "/contacto": "#contacto",
+        };
+
+        var redirectUrl = base + (sectionByPath[normalizedPath] || "");
+        var homeUrl = base;
+        var contactUrl = base + "#contacto";
+        var logoUrl = base + "LOGO_ISOLOGO HORIZONTAL BLANCO.png";
+
+        if (homeLink) homeLink.href = homeUrl;
+        if (homeCta) homeCta.href = homeUrl;
+        if (contactCta) contactCta.href = contactUrl;
+        if (logoImg) logoImg.src = logoUrl;
+
+        var secondsLeft = 8;
+        var timer = window.setInterval(function () {
+          secondsLeft -= 1;
+          if (countdownEl) {
+            countdownEl.textContent = String(secondsLeft);
+          }
+          if (secondsLeft <= 0) {
+            window.clearInterval(timer);
+            window.location.replace(redirectUrl);
+          }
+        }, 1000);
+      })();
+    </script>
+  </body>
+</html>
