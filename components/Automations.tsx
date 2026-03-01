@@ -2,19 +2,19 @@ import React from 'react';
 
 const Automations: React.FC = () => {
   return (
-    <section id="automatizaciones" className="py-24 sm:py-32 px-4 sm:px-6">
+    <section id="automatizaciones" className="py-32 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="reveal text-4xl sm:text-6xl lg:text-8xl font-black tracking-tighter uppercase mb-14 sm:mb-24 break-words">Capacidades<br/><span className="text-cyber-purple">Y Sistemas</span></h2>
+        <h2 className="reveal text-6xl lg:text-8xl font-black tracking-tighter uppercase mb-24">Capacidades<br/><span className="text-cyber-purple">Y Sistemas</span></h2>
         
-        <div className="grid md:grid-cols-2 gap-10 sm:gap-16">
+        <div className="grid md:grid-cols-2 gap-16">
           {[
             {
-              title: "Atención al cliente",
+              title: "AtenciÃ³n al cliente",
               color: "text-cyber-purple",
               borderColor: "bg-cyber-purple",
               items: [
                 { title: "Chatbots de Respuesta Directa", desc: "IA entrenada con tu conocimiento para resolver dudas 24/7 en WhatsApp o Web." },
-                { title: "Clasificación de Leads", desc: "Filtra automáticamente quién es cliente ideal y quién no antes de que pierdas un minuto." }
+                { title: "ClasificaciÃ³n de Leads", desc: "Filtra automÃ¡ticamente quiÃ©n es cliente ideal y quiÃ©n no antes de que pierdas un minuto." }
               ]
             },
             {
@@ -22,8 +22,8 @@ const Automations: React.FC = () => {
               color: "text-cyber-purple",
               borderColor: "bg-cyber-purple",
               items: [
-                { title: "Agendamiento Autónomo", desc: "Sincronización total de calendarios, pagos de reserva y recordatorios sin intervención." },
-                { title: "Seguimiento Post-reunión", desc: "Envío automático de resúmenes, actas y siguientes pasos tras finalizar una llamada." }
+                { title: "Agendamiento AutÃ³nomo", desc: "SincronizaciÃ³n total de calendarios, pagos de reserva y recordatorios sin intervenciÃ³n." },
+                { title: "Seguimiento Post-reuniÃ³n", desc: "EnvÃ­o automÃ¡tico de resÃºmenes, actas y siguientes pasos tras finalizar una llamada." }
               ]
             },
             {
@@ -31,8 +31,8 @@ const Automations: React.FC = () => {
               color: "text-cyber-purple",
               borderColor: "bg-cyber-purple",
               items: [
-                { title: "Extracción de Información", desc: "Convierte PDFs, facturas o emails en datos estructurados en tu CRM automáticamente." },
-                { title: "Reporting Inteligente", desc: "Dashboards que se actualizan solos y te envían alertas de KPIs críticos cada mañana." }
+                { title: "ExtracciÃ³n de InformaciÃ³n", desc: "Convierte PDFs, facturas o emails en datos estructurados en tu CRM automÃ¡ticamente." },
+                { title: "Reporting Inteligente", desc: "Dashboards que se actualizan solos y te envÃ­an alertas de KPIs crÃ­ticos cada maÃ±ana." }
               ]
             },
             {
@@ -40,19 +40,19 @@ const Automations: React.FC = () => {
               color: "text-cyber-purple",
               borderColor: "bg-cyber-purple",
               items: [
-                { title: "Generación de Presupuestos", desc: "Crea propuestas personalizadas en segundos basadas en el formulario del cliente." },
+                { title: "GeneraciÃ³n de Presupuestos", desc: "Crea propuestas personalizadas en segundos basadas en el formulario del cliente." },
                 { title: "Onboarding de Clientes", desc: "Desde el pago hasta el acceso al servicio: todo el proceso de bienvenida automatizado." }
               ]
             }
           ].map((cat, catIndex) => (
             <div key={cat.title} className={`reveal stagger-${catIndex + 1}`}>
-              <h3 className={`text-xs font-bold tracking-[0.22em] sm:tracking-[0.4em] uppercase ${cat.color} mb-8 flex items-center gap-4`}>
+              <h3 className={`text-xs font-bold tracking-[0.4em] uppercase ${cat.color} mb-8 flex items-center gap-4`}>
                 <span className={`w-8 h-px ${cat.borderColor} shadow-[0_0_10px_currentColor]`}></span> {cat.title}
               </h3>
               <div className="grid gap-4">
                 {cat.items.map((item) => (
-                  <div key={item.title} className={`glass-card p-6 sm:p-8 rounded-2xl group hover:border-${cat.borderColor.split('-')[1]}-${cat.borderColor.split('-')[2]}/50 transition-all duration-500 hover:-translate-y-2`}>
-                    <h4 className="text-lg sm:text-xl font-bold mb-2 uppercase flex justify-between items-center">
+                  <div key={item.title} className={`glass-card p-8 rounded-2xl group hover:border-${cat.borderColor.split('-')[1]}-${cat.borderColor.split('-')[2]}/50 transition-all duration-500 hover:-translate-y-2`}>
+                    <h4 className="text-xl font-bold mb-2 uppercase flex justify-between items-center">
                       {item.title}
                     </h4>
                     <p className="text-slate-400 text-sm group-hover:text-slate-300 transition-colors">{item.desc}</p>

@@ -1,21 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { motion, useReducedMotion } from 'motion/react';
+import React from 'react';
+import { motion } from 'motion/react';
 
 const Integrations: React.FC = () => {
-  const [isMobile, setIsMobile] = useState(false);
-  const reduceMotion = useReducedMotion();
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 768px)');
-    const onChange = () => setIsMobile(mediaQuery.matches);
-
-    onChange();
-    mediaQuery.addEventListener('change', onChange);
-    return () => mediaQuery.removeEventListener('change', onChange);
-  }, []);
-
-  const shouldAnimate = !reduceMotion && !isMobile;
-
   const tools = [
     { name: 'WhatsApp', icon: 'https://cdn.simpleicons.org/whatsapp/ffffff', bg: 'bg-[#25D366]/20' },
     { name: 'OpenAI', icon: 'https://api.iconify.design/simple-icons:openai.svg?color=%23ffffff', bg: 'bg-[#412991]/20' },
@@ -28,23 +14,26 @@ const Integrations: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 sm:py-32 px-4 sm:px-6 relative overflow-hidden">
+    <section className="py-32 px-6 relative overflow-hidden">
       <div className="max-w-7xl mx-auto text-center">
-        <span className="text-cyber-purple font-mono text-xs tracking-[0.35em] sm:tracking-[0.5em] uppercase mb-8 block reveal">Integraciones</span>
-        <h2 className="reveal text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter uppercase mb-14 md:mb-24 px-2">
-          Conecta tu negocio con
-          <br />
-          <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-cyber-purple to-cyber-cyan">todas tus herramientas</span>
+        <span className="text-cyber-purple font-mono text-xs tracking-[0.5em] uppercase mb-8 block reveal">Integraciones</span>
+        <h2 className="reveal text-4xl md:text-6xl font-black tracking-tighter uppercase mb-16 md:mb-24">
+          Conecta tu negocio con <br />
+          <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-cyber-purple to-cyber-cyan pr-4">todas tus herramientas</span>
         </h2>
 
-        {/* Desktop Orbit */}
-        <div className="relative w-full max-w-[600px] aspect-square mx-auto hidden md:block reveal-scale overflow-hidden">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[66%] h-[66%] bg-cyber-purple/20 blur-[80px] rounded-full -z-10"></div>
-
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[84%] h-[84%] border border-white/5 rounded-full"></div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[58%] h-[58%] border border-white/10 rounded-full"></div>
-
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-3xl flex items-center justify-center z-20 shadow-[0_0_40px_rgba(139,92,246,0.25)] border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl">
+        {/* 2D Orbit Container */}
+        <div className="relative w-[600px] h-[600px] mx-auto hidden md:block reveal-scale">
+          
+          {/* Central Glow */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-cyber-purple/20 blur-[100px] rounded-full -z-10"></div>
+          
+          {/* Orbital Rings */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] border border-white/5 rounded-full"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] border border-white/10 rounded-full"></div>
+          
+          {/* Central Logo (Static) */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-3xl flex items-center justify-center z-20 shadow-[0_0_50px_rgba(139,92,246,0.3)] border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl">
             <img
               src={`${import.meta.env.BASE_URL}LOGO_FAVICON BLANCO.png`}
               alt="Carlota AI"
@@ -54,62 +43,71 @@ const Integrations: React.FC = () => {
             />
           </div>
 
-          <motion.div
+          {/* Orbiting Icons Container */}
+          <motion.div 
             className="absolute inset-0 rounded-full"
-            animate={shouldAnimate ? { rotate: 360 } : undefined}
-            transition={shouldAnimate ? { duration: 60, repeat: Infinity, ease: 'linear' } : undefined}
+            animate={{ rotate: 360 }}
+            transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
           >
             {tools.map((tool, index) => {
               const angle = (index * 360) / tools.length;
-
+              
               return (
                 <div
                   key={tool.name}
                   className="absolute top-1/2 left-1/2 w-16 h-16 -ml-8 -mt-8"
-                  style={{ transform: `rotate(${angle}deg) translate(250px) rotate(-${angle}deg)` }}
+                  style={{
+                    transform: `rotate(${angle}deg) translate(250px) rotate(-${angle}deg)`,
+                  }}
                 >
-                  <motion.div
-                    className="w-full h-full"
-                    animate={shouldAnimate ? { rotate: -360 } : undefined}
-                    transition={shouldAnimate ? { duration: 60, repeat: Infinity, ease: 'linear' } : undefined}
-                  >
-                    <motion.div
-                      className="w-full h-full glass-card rounded-2xl flex items-center justify-center border-white/10 shadow-lg cursor-pointer"
-                      whileHover={{ scale: 1.12 }}
-                      transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-                    >
-                      <div className={`w-10 h-10 rounded-lg ${tool.bg} flex items-center justify-center`}>
-                        <img src={tool.icon} alt={tool.name} className="w-6 h-6 opacity-90" loading="lazy" decoding="async" />
-                      </div>
-                    </motion.div>
-                  </motion.div>
+                   {/* Counter-rotate to keep upright while orbiting */}
+                   <motion.div 
+                      className="w-full h-full"
+                      animate={{ rotate: -360 }}
+                      transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+                   >
+                      {/* Scale on Hover (Independent of rotation) */}
+                      <motion.div 
+                        className="w-full h-full glass-card rounded-2xl flex items-center justify-center border-white/10 shadow-lg cursor-pointer"
+                        whileHover={{ scale: 1.2 }}
+                        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                      >
+                        <div className={`w-10 h-10 rounded-lg ${tool.bg} flex items-center justify-center`}>
+                            <img src={tool.icon} alt={tool.name} className="w-6 h-6 opacity-90" loading="lazy" decoding="async" />
+                        </div>
+                      </motion.div>
+                   </motion.div>
                 </div>
               );
             })}
           </motion.div>
         </div>
 
-        {/* Mobile Orbit */}
-        <div className="relative w-full max-w-[280px] sm:max-w-[320px] aspect-square mx-auto md:hidden reveal-scale overflow-hidden">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[72%] h-[72%] bg-cyber-purple/20 blur-[60px] rounded-full -z-10"></div>
+        {/* Mobile Orbit (Same layout as desktop, scaled down) */}
+        <div className="relative w-[320px] h-[320px] mx-auto md:hidden reveal-scale">
+          {/* Central Glow */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[220px] h-[220px] bg-cyber-purple/20 blur-[80px] rounded-full -z-10"></div>
 
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[92%] h-[92%] border border-white/5 rounded-full"></div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[68%] h-[68%] border border-white/10 rounded-full"></div>
+          {/* Orbital Rings */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[290px] h-[290px] border border-white/5 rounded-full"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[210px] h-[210px] border border-white/10 rounded-full"></div>
 
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 sm:w-24 sm:h-24 rounded-2xl flex items-center justify-center z-20 shadow-[0_0_32px_rgba(139,92,246,0.25)] border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl">
+          {/* Central Logo (Static) */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-2xl flex items-center justify-center z-20 shadow-[0_0_40px_rgba(139,92,246,0.3)] border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl">
             <img
               src={`${import.meta.env.BASE_URL}LOGO_FAVICON BLANCO.png`}
               alt="Carlota AI"
-              className="w-12 h-12 sm:w-14 sm:h-14 object-contain"
+              className="w-14 h-14 object-contain"
               loading="lazy"
               decoding="async"
             />
           </div>
 
+          {/* Orbiting Icons Container */}
           <motion.div
             className="absolute inset-0 rounded-full"
-            animate={shouldAnimate ? { rotate: 360 } : undefined}
-            transition={shouldAnimate ? { duration: 60, repeat: Infinity, ease: 'linear' } : undefined}
+            animate={{ rotate: 360 }}
+            transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
           >
             {tools.map((tool, index) => {
               const angle = (index * 360) / tools.length;
@@ -117,19 +115,27 @@ const Integrations: React.FC = () => {
               return (
                 <div
                   key={tool.name}
-                  className="absolute top-1/2 left-1/2 w-12 h-12 sm:w-14 sm:h-14 -ml-6 sm:-ml-7 -mt-6 sm:-mt-7"
-                  style={{ transform: `rotate(${angle}deg) translate(110px) rotate(-${angle}deg)` }}
+                  className="absolute top-1/2 left-1/2 w-14 h-14 -ml-7 -mt-7"
+                  style={{
+                    transform: `rotate(${angle}deg) translate(145px) rotate(-${angle}deg)`,
+                  }}
                 >
+                  {/* Counter-rotate to keep upright while orbiting */}
                   <motion.div
                     className="w-full h-full"
-                    animate={shouldAnimate ? { rotate: -360 } : undefined}
-                    transition={shouldAnimate ? { duration: 60, repeat: Infinity, ease: 'linear' } : undefined}
+                    animate={{ rotate: -360 }}
+                    transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
                   >
-                    <div className="w-full h-full glass-card rounded-xl flex items-center justify-center border-white/10 shadow-lg">
-                      <div className={`w-8 h-8 sm:w-9 sm:h-9 rounded-lg ${tool.bg} flex items-center justify-center`}>
-                        <img src={tool.icon} alt={tool.name} className="w-4 h-4 sm:w-5 sm:h-5 opacity-90" loading="lazy" decoding="async" />
+                    {/* Scale on Hover (Independent of rotation) */}
+                    <motion.div
+                      className="w-full h-full glass-card rounded-xl flex items-center justify-center border-white/10 shadow-lg cursor-pointer"
+                      whileHover={{ scale: 1.15 }}
+                      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                    >
+                      <div className={`w-9 h-9 rounded-lg ${tool.bg} flex items-center justify-center`}>
+                        <img src={tool.icon} alt={tool.name} className="w-5 h-5 opacity-90" loading="lazy" decoding="async" />
                       </div>
-                    </div>
+                    </motion.div>
                   </motion.div>
                 </div>
               );
