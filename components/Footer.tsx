@@ -14,13 +14,28 @@ const Footer: React.FC = () => {
               decoding="async"
             />
             <p className="text-slate-500 max-w-xs font-light">
-              Menos tareas. Más tiempo. Mejor negocio. <br/>Sistemas de automatización con IA.
+              Menos tareas. Más tiempo. Mejor negocio. <br />Sistemas de automatización con IA.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-12">
             <div className="space-y-4">
               <span className="text-[10px] font-bold uppercase tracking-widest text-white/40 block">Redes</span>
-              <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="#">LinkedIn</a>
+              <a
+                className="block text-xs font-bold hover:text-cyber-purple transition-colors"
+                href="https://www.linkedin.com/in/carlota-l%C3%B3pez-carracedo-562ab1220/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+              <a
+                className="block text-xs font-bold hover:text-cyber-purple transition-colors"
+                href="https://www.instagram.com/carlotaloopeez/?hl=es"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
             </div>
             <div className="space-y-4">
               <span className="text-[10px] font-bold uppercase tracking-widest text-white/40 block">Legal</span>
