@@ -15,7 +15,7 @@ const About: React.FC = () => {
                 decoding="async"
               />
             </div>
-            <div className="absolute left-1/2 top-full -translate-x-1/2 -translate-y-1/2 z-20 glass-card px-8 py-6 rounded-3xl border-white/20 w-[88%] max-w-[640px]">
+            <div className="-mt-px w-full px-8 py-6 rounded-3xl border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl shadow-[0_20px_40px_rgba(0,0,0,0.35)]">
               <div className="flex flex-wrap justify-center gap-2">
                 <span className="px-4 py-1.5 rounded-full bg-cyber-purple/20 text-cyber-purple text-[10px] font-bold uppercase tracking-widest border border-cyber-purple/30">Claridad</span>
                 <span className="px-4 py-1.5 rounded-full bg-cyber-cyan/20 text-cyber-cyan text-[10px] font-bold uppercase tracking-widest border border-cyber-cyan/30">Control</span>
