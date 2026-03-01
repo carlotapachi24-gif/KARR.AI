@@ -34,7 +34,7 @@ const App: React.FC = () => {
   return (
     <div className="relative min-h-screen">
       {/* Background Effects */}
-      <div className="fixed inset-0 grainy-overlay z-50 pointer-events-none"></div>
+      <div className="hidden md:block fixed inset-0 grainy-overlay z-30 pointer-events-none"></div>
       <div className="fixed inset-0 mesh-gradient -z-10 transition-opacity duration-1000"></div>
       
       {/* Navigation */}
@@ -59,7 +59,7 @@ const App: React.FC = () => {
 
       {/* Mobile Floating Action Button */}
       <div className="lg:hidden fixed bottom-6 right-6 z-[110]">
-        <button className="w-16 h-16 bg-white text-black rounded-full shadow-[0_0_30px_rgba(255,255,255,0.2)] flex items-center justify-center group active:scale-95 transition-all animate-bounce hover:animate-none">
+        <button className="w-14 h-14 bg-white text-black rounded-full shadow-[0_0_20px_rgba(255,255,255,0.2)] flex items-center justify-center group active:scale-95 transition-transform">
           <span className="material-symbols-outlined text-3xl">chat_bubble</span>
         </button>
       </div>

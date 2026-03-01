@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carlota AI | Cyber-Sleek Automation</title>
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
@@ -47,9 +49,24 @@
     </script>
     <style type="text/tailwindcss">
         @layer base {
+            :root, body, #root {
+                max-width: 100%;
+                overflow-x: clip;
+            }
+
+            html {
+                overscroll-behavior-x: none;
+            }
+
             body {
                 @apply bg-void text-slate-200 overflow-x-hidden antialiased selection:bg-cyber-purple/30;
                 font-family: 'Plus Jakarta Sans', sans-serif;
+                text-rendering: optimizeLegibility;
+            }
+
+            main > section {
+                content-visibility: auto;
+                contain-intrinsic-size: 1px 900px;
             }
         }
         
@@ -81,7 +98,7 @@
             background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.08);
-            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: background-color 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             position: relative;
             overflow: hidden;
         }
@@ -149,6 +166,41 @@
         .stagger-2 { transition-delay: 200ms; }
         .stagger-3 { transition-delay: 300ms; }
         .stagger-4 { transition-delay: 400ms; }
+
+        @media (max-width: 768px) {
+            .mesh-gradient {
+                animation: none;
+            }
+
+            .grainy-overlay {
+                display: none;
+            }
+
+            .glass-card {
+                backdrop-filter: blur(6px);
+            }
+
+            .reveal,
+            .reveal-scale {
+                opacity: 1;
+                transform: none;
+                transition: none;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
     </style>
 <script type="importmap">
 {
@@ -159,7 +211,6 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <div id="root"></div>
