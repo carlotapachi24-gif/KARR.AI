@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 
 const CONTACT_EMAIL = 'carlotaloopezcarracedo@gmail.com';
+const FORM_ENDPOINT = `https://formsubmit.co/ajax/${CONTACT_EMAIL}`;
+
+type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
 
 const Contact: React.FC = () => {
   const [fullName, setFullName] = useState('');
   const [businessEmail, setBusinessEmail] = useState('');
   const [businessName, setBusinessName] = useState('');
   const [message, setMessage] = useState('');
+  const [submitStatus, setSubmitStatus] = useState<SubmitStatus>('idle');
+  const [statusMessage, setStatusMessage] = useState('');
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-
+  const buildMailtoUrl = () => {
     const subject = `Solicitud de diagnóstico - ${businessName.trim() || fullName.trim() || 'Nuevo contacto'}`;
     const body = [
       `Nombre: ${fullName.trim() || '-'}`,
@@ -21,8 +24,59 @@ const Contact: React.FC = () => {
       message.trim() || '-',
     ].join('\n');
 
-    const mailtoUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoUrl;
+    return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (submitStatus === 'sending') {
+      return;
+    }
+
+    if (!fullName.trim() || !businessEmail.trim() || !message.trim()) {
+      setSubmitStatus('error');
+      setStatusMessage('Completa nombre, email y mensaje para enviar la solicitud.');
+      return;
+    }
+
+    setSubmitStatus('sending');
+    setStatusMessage('');
+
+    try {
+      const response = await fetch(FORM_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          _subject: `Solicitud de diagnóstico - ${businessName.trim() || fullName.trim() || 'Nuevo contacto'}`,
+          _captcha: 'false',
+          _template: 'table',
+          _replyto: businessEmail.trim(),
+          nombre: fullName.trim(),
+          email_profesional: businessEmail.trim(),
+          empresa_proyecto: businessName.trim() || '-',
+          mensaje: message.trim(),
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Form endpoint error');
+      }
+
+      setSubmitStatus('success');
+      setStatusMessage('Solicitud enviada. Te responderé por email lo antes posible.');
+      setFullName('');
+      setBusinessEmail('');
+      setBusinessName('');
+      setMessage('');
+    } catch {
+      setSubmitStatus('error');
+      setStatusMessage('No se pudo enviar automáticamente. Se abrirá tu correo para enviarlo manualmente.');
+      window.location.href = buildMailtoUrl();
+    }
   };
 
   return (
@@ -71,7 +125,7 @@ const Contact: React.FC = () => {
                     <input
                       className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
                       placeholder="tu@empresa.com"
-                      type="text"
+                      type="email"
                       inputMode="email"
                       value={businessEmail}
                       onChange={(e) => setBusinessEmail(e.target.value)}
@@ -100,10 +154,16 @@ const Contact: React.FC = () => {
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-cyber-purple to-cyber-indigo text-white font-black py-6 rounded-2xl text-xs uppercase tracking-[0.3em] hover:shadow-[0_0_30px_rgba(139,92,246,0.4)] hover:scale-[1.02] transition-all active:scale-[0.98]"
+                  disabled={submitStatus === 'sending'}
+                  className="w-full bg-gradient-to-r from-cyber-purple to-cyber-indigo text-white font-black py-6 rounded-2xl text-xs uppercase tracking-[0.3em] hover:shadow-[0_0_30px_rgba(139,92,246,0.4)] hover:scale-[1.02] transition-all active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed"
                 >
-                  Solicitar Diagnóstico
+                  {submitStatus === 'sending' ? 'Enviando...' : 'Solicitar Diagnóstico'}
                 </button>
+                {statusMessage && (
+                  <p className={`text-sm font-medium ${submitStatus === 'success' ? 'text-green-400' : 'text-amber-300'}`}>
+                    {statusMessage}
+                  </p>
+                )}
               </form>
             </div>
           </div>
