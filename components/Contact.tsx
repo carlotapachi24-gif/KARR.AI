@@ -8,10 +8,10 @@ const Contact: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-24">
           <div>
             <h2 className="reveal text-5xl lg:text-8xl font-black tracking-tighter leading-none uppercase mb-12">
-              El sistema <span className="text-cyber-purple">perfecto</span> es el que funciona <span className="italic opacity-50">cuando tÃº no estÃ¡s.</span>
+              El sistema <span className="text-cyber-purple">perfecto</span> es el que funciona <span className="italic opacity-50">cuando tú no estás.</span>
             </h2>
             <p className="reveal stagger-1 text-xl text-slate-400 font-light mb-12 max-w-lg">
-              CuÃ©ntame dÃ³nde estÃ¡n tus cuellos de botella operativos y te digo quÃ© automatizaciÃ³n harÃ­a primero para recuperar tiempo sin complicarte la vida.
+              Cuéntame dónde están tus cuellos de botella operativos y te digo qué automatización haría primero para recuperar tiempo sin complicarte la vida.
             </p>
             <div className="reveal stagger-2 space-y-4">
               <div className="flex items-center gap-4 text-slate-300 hover:text-white transition-colors cursor-pointer group">
@@ -46,11 +46,11 @@ const Contact: React.FC = () => {
                   <input className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20" placeholder="Nombre de tu negocio" type="text"/>
                 </div>
                 <div className="space-y-2 group">
-                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Â¿DÃ³nde pierdes mÃ¡s tiempo hoy?</label>
-                  <textarea className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all resize-none placeholder:text-white/20" placeholder="Ej: ClasificaciÃ³n de leads, agenda, facturaciÃ³n..." rows={4}></textarea>
+                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">¿Dónde pierdes más tiempo hoy?</label>
+                  <textarea className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all resize-none placeholder:text-white/20" placeholder="Ej: Clasificación de leads, agenda, facturación..." rows={4}></textarea>
                 </div>
                 <button className="w-full bg-gradient-to-r from-cyber-purple to-cyber-indigo text-white font-black py-6 rounded-2xl text-xs uppercase tracking-[0.3em] hover:shadow-[0_0_30px_rgba(139,92,246,0.4)] hover:scale-[1.02] transition-all active:scale-[0.98]">
-                  Solicitar DiagnÃ³stico
+                  Solicitar Diagnóstico
                 </button>
               </form>
             </div>

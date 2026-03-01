@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-cyber-purple"></span>
           </span>
           <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-white/70">
-            Menos tareas invisibles. MÃ¡s horas Ãºtiles.
+            Menos tareas invisibles. Más horas útiles.
           </span>
         </div>
         
@@ -28,17 +28,17 @@ const Hero: React.FC = () => {
         </div>
         
         <p className="reveal stagger-2 text-lg md:text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">
-          Automatizo procesos con IA para que tu negocio responda, agende, registre y haga seguimiento sin que tÃº estÃ©s pendiente del mÃ³vil.
+          Automatizo procesos con IA para que tu negocio responda, agende, registre y haga seguimiento sin que tú estés pendiente del móvil.
         </p>
         
         <div className="reveal stagger-3 flex flex-wrap justify-center gap-4 max-w-4xl mx-auto mb-16">
           {[
-            { icon: 'speed', text: 'OptimizaciÃ³n' },
+            { icon: 'speed', text: 'Optimización' },
             { icon: 'precision_manufacturing', text: 'Cero Errores' },
             { icon: 'trending_up', text: 'Escalabilidad' },
             { icon: 'lock', text: 'Control Total' }
-          ].map((item, index) => (
-            <div key={item.text} className={`w-36 flex items-center gap-2 glass-card p-3 rounded-xl border-white/5 hover:bg-white/10 group transition-all duration-300`}>
+          ].map((item) => (
+            <div key={item.text} className="w-36 flex items-center gap-2 glass-card p-3 rounded-xl border-white/5 hover:bg-white/10 group transition-all duration-300">
               <span className="material-symbols-outlined text-cyber-purple text-xl group-hover:scale-110 transition-transform">{item.icon}</span>
               <span className="text-[10px] font-bold uppercase tracking-tight">{item.text}</span>
             </div>

@@ -5,8 +5,8 @@ const navLinks = [
   { label: 'Resultados', href: '#resultados' },
   { label: 'Servicios', href: '#automatizaciones' },
   { label: 'Casos', href: '#casos' },
-  { label: 'CÃ³mo funciona', href: '#como-funciona' },
-  { label: 'Sobre mÃ­', href: '#sobre-mi' },
+  { label: 'Cómo funciona', href: '#como-funciona' },
+  { label: 'Sobre mí', href: '#sobre-mi' },
 ];
 
 const Navbar: React.FC = () => {
@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
             href="#contacto"
             className="inline-flex items-center justify-center bg-white text-black px-5 py-2.5 rounded-full text-[10px] font-extrabold uppercase glow-soft hover:bg-slate-200 transition-all"
           >
-            Quiero mi diagnÃ³stico
+            Quiero mi diagnóstico
           </a>
         </div>
       </div>

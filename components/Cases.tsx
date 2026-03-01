@@ -19,11 +19,11 @@ const Cases: React.FC = () => {
               <div className="space-y-6 flex-grow">
                 <div className="p-4 rounded-xl bg-red-500/5 border border-red-500/10">
                   <span className="text-[10px] uppercase font-bold text-red-400 block mb-1">Antes</span>
-                  <p className="text-xs text-slate-400">AtenciÃ³n manual de WhatsApp. 4h de retraso en respuestas. PÃ©rdida de leads fuera de horario.</p>
+                  <p className="text-xs text-slate-400">Atención manual de WhatsApp. 4h de retraso en respuestas. Pérdida de leads fuera de horario.</p>
                 </div>
                 <div className="p-4 rounded-xl bg-green-500/5 border border-green-500/10">
-                  <span className="text-[10px] uppercase font-bold text-green-400 block mb-1">DespuÃ©s</span>
-                  <p className="text-xs text-slate-100 font-medium">Asistente IA con agenda integrada. Respuesta en 5 seg. 24/7. Agendado automÃ¡tico.</p>
+                  <span className="text-[10px] uppercase font-bold text-green-400 block mb-1">Después</span>
+                  <p className="text-xs text-slate-100 font-medium">Asistente IA con agenda integrada. Respuesta en 5 seg. 24/7. Agendado automático.</p>
                 </div>
               </div>
               <div className="pt-6 border-t border-white/5 mt-6">
@@ -45,11 +45,11 @@ const Cases: React.FC = () => {
               <div className="space-y-6 flex-grow">
                 <div className="p-4 rounded-xl bg-red-500/5 border border-red-500/10">
                   <span className="text-[10px] uppercase font-bold text-red-400 block mb-1">Antes</span>
-                  <p className="text-xs text-slate-400">GeneraciÃ³n de presupuestos manual (1h c/u). Errores frecuentes en precios y servicios.</p>
+                  <p className="text-xs text-slate-400">Generación de presupuestos manual (1h c/u). Errores frecuentes en precios y servicios.</p>
                 </div>
                 <div className="p-4 rounded-xl bg-green-500/5 border border-green-500/10">
-                  <span className="text-[10px] uppercase font-bold text-green-400 block mb-1">DespuÃ©s</span>
-                  <p className="text-xs text-slate-100 font-medium">Sistema automatizado: Formulario â†’ Presupuesto PDF en 30 seg. Cero errores.</p>
+                  <span className="text-[10px] uppercase font-bold text-green-400 block mb-1">Después</span>
+                  <p className="text-xs text-slate-100 font-medium">Sistema automatizado: Formulario -&gt; Presupuesto PDF en 30 seg. Cero errores.</p>
                 </div>
               </div>
               <div className="pt-6 border-t border-white/5 mt-6">
@@ -74,8 +74,8 @@ const Cases: React.FC = () => {
                   <p className="text-xs text-slate-400">Datos dispersos en 4 plataformas. Imposible saber rentabilidad neta diaria.</p>
                 </div>
                 <div className="p-4 rounded-xl bg-green-500/5 border border-green-500/10">
-                  <span className="text-[10px] uppercase font-bold text-green-400 block mb-1">DespuÃ©s</span>
-                  <p className="text-xs text-slate-100 font-medium">Reporting automatizado que cruza ads, ventas y stock. Alertas al mÃ³vil.</p>
+                  <span className="text-[10px] uppercase font-bold text-green-400 block mb-1">Después</span>
+                  <p className="text-xs text-slate-100 font-medium">Reporting automatizado que cruza ads, ventas y stock. Alertas al móvil.</p>
                 </div>
               </div>
               <div className="pt-6 border-t border-white/5 mt-6">

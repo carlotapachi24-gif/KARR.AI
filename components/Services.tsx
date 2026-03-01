@@ -4,26 +4,26 @@ const Services: React.FC = () => {
   return (
     <section id="servicios" className="py-32 bg-black/50">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="reveal text-5xl font-black tracking-tighter uppercase mb-16 text-center">Niveles de IntervenciÃ³n</h2>
+        <h2 className="reveal text-5xl font-black tracking-tighter uppercase mb-16 text-center">Niveles de Intervención</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           
           <div className="reveal stagger-1 glass-card p-8 rounded-3xl flex flex-col hover:bg-white/5">
             <div className="text-[10px] font-mono text-white/40 mb-4 tracking-widest uppercase">Fase 01</div>
-            <h3 className="text-2xl font-bold mb-4 uppercase">AuditorÃ­a</h3>
-            <p className="text-sm text-slate-400 mb-8 flex-grow">Mapeo exhaustivo de procesos para detectar dÃ³nde estÃ¡s perdiendo el tiempo hoy mismo.</p>
+            <h3 className="text-2xl font-bold mb-4 uppercase">Auditoría</h3>
+            <p className="text-sm text-slate-400 mb-8 flex-grow">Mapeo exhaustivo de procesos para detectar dónde estás perdiendo el tiempo hoy mismo.</p>
             <div className="mb-8 p-3 bg-white/5 rounded-xl border border-white/10">
               <span className="text-[10px] font-bold uppercase tracking-wider block text-cyber-purple mb-1">Ideal para:</span>
-              <span className="text-xs text-white">Equipos que saben que fallan pero no dÃ³nde exactamente.</span>
+              <span className="text-xs text-white">Equipos que saben que fallan pero no dónde exactamente.</span>
             </div>
           </div>
 
           <div className="reveal stagger-2 glass-card p-8 rounded-3xl flex flex-col hover:bg-white/5">
             <div className="text-[10px] font-mono text-white/40 mb-4 tracking-widest uppercase">Fase 02</div>
             <h3 className="text-2xl font-bold mb-4 uppercase">Impacto</h3>
-            <p className="text-sm text-slate-400 mb-8 flex-grow">Automatizaciones tÃ¡cticas de implementaciÃ³n rÃ¡pida para liberar tus primeras 10h semanales.</p>
+            <p className="text-sm text-slate-400 mb-8 flex-grow">Automatizaciones tácticas de implementación rápida para liberar tus primeras 10h semanales.</p>
             <div className="mb-8 p-3 bg-white/5 rounded-xl border border-white/10">
               <span className="text-[10px] font-bold uppercase tracking-wider block text-cyber-purple mb-1">Ideal para:</span>
-              <span className="text-xs text-white">Problemas puntuales de cuello de botella o gestiÃ³n de leads.</span>
+              <span className="text-xs text-white">Problemas puntuales de cuello de botella o gestión de leads.</span>
             </div>
           </div>
 
@@ -46,20 +46,20 @@ const Services: React.FC = () => {
           <div className="reveal stagger-4 glass-card p-8 rounded-3xl flex flex-col hover:bg-white/5">
             <div className="text-[10px] font-mono text-white/40 mb-4 tracking-widest uppercase">Fase 04</div>
             <h3 className="text-2xl font-bold mb-4 uppercase">Mantenimiento</h3>
-            <p className="text-sm text-slate-400 mb-8 flex-grow">OptimizaciÃ³n constante y actualizaciÃ³n de modelos para que nunca te quedes atrÃ¡s.</p>
+            <p className="text-sm text-slate-400 mb-8 flex-grow">Optimización constante y actualización de modelos para que nunca te quedes atrás.</p>
             <div className="mb-8 p-3 bg-white/5 rounded-xl border border-white/10">
               <span className="text-[10px] font-bold uppercase tracking-wider block text-cyber-purple mb-1">Ideal para:</span>
-              <span className="text-xs text-white">Sistemas ya construidos que requieren evoluciÃ³n continua.</span>
+              <span className="text-xs text-white">Sistemas ya construidos que requieren evolución continua.</span>
             </div>
           </div>
 
         </div>
 
         <div className="reveal mt-20 p-12 glass-card rounded-[3rem] text-center border-white/10 hover:border-white/20 transition-all">
-          <h3 className="text-3xl font-bold uppercase mb-6">Â¿Dudas sobre por dÃ³nde empezar?</h3>
-          <p className="text-slate-400 mb-8 max-w-xl mx-auto">Reserva una llamada estratÃ©gica de 15 minutos y definiremos tu hoja de ruta hacia la eficiencia total.</p>
+          <h3 className="text-3xl font-bold uppercase mb-6">¿Dudas sobre por dónde empezar?</h3>
+          <p className="text-slate-400 mb-8 max-w-xl mx-auto">Reserva una llamada estratégica de 15 minutos y definiremos tu hoja de ruta hacia la eficiencia total.</p>
           <button className="bg-white text-black px-10 py-4 rounded-xl font-extrabold uppercase tracking-widest hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
-            Solicitar DiagnÃ³stico Gratuito
+            Solicitar Diagnóstico Gratuito
           </button>
         </div>
       </div>

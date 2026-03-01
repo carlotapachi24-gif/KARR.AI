@@ -8,6 +8,7 @@ const Results: React.FC = () => {
   useEffect(() => {
     const totalDuration = 12000; // 12 seconds loop
     let loopTimers: number[] = [];
+
     const loop = () => {
       loopTimers.forEach((timer) => clearTimeout(timer));
       loopTimers = [];
@@ -52,14 +53,14 @@ const Results: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl text-slate-400 font-light mb-12"
             >
-              La automatizaciÃ³n no es solo ahorrar minutos; es transformar la naturaleza de tu trabajo diario.
+              La automatización no es solo ahorrar minutos; es transformar la naturaleza de tu trabajo diario.
             </motion.p>
             <ul className="space-y-6">
               {[
                 "Eliminas el 90% de la carga administrativa y tareas repetitivas.",
                 "Escalabilidad pura: tu sistema crece sin necesidad de aumentar plantilla linealmente.",
-                "Claridad estratÃ©gica: datos en tiempo real para tomar decisiones, no suposiciones.",
-                "Respuesta inmediata: la IA atiende a tus clientes mientras tÃº descansas.",
+                "Claridad estratégica: datos en tiempo real para tomar decisiones, no suposiciones.",
+                "Respuesta inmediata: la IA atiende a tus clientes mientras tú descansas.",
                 "Paz mental: procesos robustos que no dependen de la memoria de nadie."
               ].map((text, i) => (
                 <motion.li 
@@ -85,7 +86,7 @@ const Results: React.FC = () => {
               transition={{ duration: 0.8, delay: 1 }}
               className="mt-16 p-8 glass-card rounded-2xl border-l-4 border-l-cyber-purple hover:pl-10 transition-all cursor-default"
             >
-              <p className="text-xl italic font-light">"Tu negocio no necesita mÃ¡s horas tuyas;<br />necesita mejores sistemas trabajando para ti."</p>
+              <p className="text-xl italic font-light">"Tu negocio no necesita más horas tuyas;<br />necesita mejores sistemas trabajando para ti."</p>
             </motion.div>
           </div>
           
@@ -154,7 +155,7 @@ const Results: React.FC = () => {
                       <div className="bg-[#1f2937] border border-white/5 p-5 rounded-2xl rounded-tl-none relative shadow-lg">
                          <p className="text-lg font-medium text-white leading-relaxed">
                            {stage >= 1 && (
-                             <TypewriterText text='"Quiero cita maÃ±ana a las 6 para cortar"' />
+                             <TypewriterText text='"Quiero cita mañana a las 6 para cortar"' />
                            )}
                          </p>
                       </div>
@@ -244,7 +245,7 @@ const Results: React.FC = () => {
                         <div className="grid grid-cols-2 gap-3">
                            {[
                              { label: 'Servicio', val: 'Corte', icon: Scissors },
-                             { label: 'DÃ­a', val: 'MaÃ±ana', icon: Calendar },
+                             { label: 'Día', val: 'Mañana', icon: Calendar },
                              { label: 'Hora', val: '18:00', icon: Clock },
                              { label: 'Nombre', val: 'Rosa', icon: User }
                            ].map((chip, idx) => (
@@ -294,7 +295,7 @@ const Results: React.FC = () => {
                           </div>
                           <div>
                             <span className="block text-sm font-bold text-white">Evento creado</span>
-                            <span className="text-xs text-slate-400">Corte â€” Rosa LÃ³pez Â· 18:00</span>
+                            <span className="text-xs text-slate-400">Corte - Rosa López · 18:00</span>
                           </div>
                       </div>
                       <CheckCircle2 className="w-5 h-5 text-green-400" />
@@ -312,7 +313,7 @@ const Results: React.FC = () => {
                           </div>
                           <div>
                             <span className="block text-sm font-bold text-white">Respuesta enviada</span>
-                            <span className="text-xs text-slate-400">ConfirmaciÃ³n automÃ¡tica</span>
+                            <span className="text-xs text-slate-400">Confirmación automática</span>
                           </div>
                       </div>
                       <CheckCircle2 className="w-5 h-5 text-green-400" />
@@ -330,7 +331,7 @@ const Results: React.FC = () => {
                           </div>
                           <div>
                             <span className="block text-sm font-bold text-white">Recordatorio</span>
-                            <span className="text-xs text-slate-400">Programado: MaÃ±ana 17:00</span>
+                            <span className="text-xs text-slate-400">Programado: Mañana 17:00</span>
                           </div>
                       </div>
                       <CheckCircle2 className="w-5 h-5 text-green-400" />

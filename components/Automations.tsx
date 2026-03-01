@@ -9,12 +9,12 @@ const Automations: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-16">
           {[
             {
-              title: "AtenciÃ³n al cliente",
+              title: "Atención al cliente",
               color: "text-cyber-purple",
               borderColor: "bg-cyber-purple",
               items: [
                 { title: "Chatbots de Respuesta Directa", desc: "IA entrenada con tu conocimiento para resolver dudas 24/7 en WhatsApp o Web." },
-                { title: "ClasificaciÃ³n de Leads", desc: "Filtra automÃ¡ticamente quiÃ©n es cliente ideal y quiÃ©n no antes de que pierdas un minuto." }
+                { title: "Clasificación de Leads", desc: "Filtra automáticamente quién es cliente ideal y quién no antes de que pierdas un minuto." }
               ]
             },
             {
@@ -22,8 +22,8 @@ const Automations: React.FC = () => {
               color: "text-cyber-purple",
               borderColor: "bg-cyber-purple",
               items: [
-                { title: "Agendamiento AutÃ³nomo", desc: "SincronizaciÃ³n total de calendarios, pagos de reserva y recordatorios sin intervenciÃ³n." },
-                { title: "Seguimiento Post-reuniÃ³n", desc: "EnvÃ­o automÃ¡tico de resÃºmenes, actas y siguientes pasos tras finalizar una llamada." }
+                { title: "Agendamiento Autónomo", desc: "Sincronización total de calendarios, pagos de reserva y recordatorios sin intervención." },
+                { title: "Seguimiento Post-reunión", desc: "Envío automático de resúmenes, actas y siguientes pasos tras finalizar una llamada." }
               ]
             },
             {
@@ -31,8 +31,8 @@ const Automations: React.FC = () => {
               color: "text-cyber-purple",
               borderColor: "bg-cyber-purple",
               items: [
-                { title: "ExtracciÃ³n de InformaciÃ³n", desc: "Convierte PDFs, facturas o emails en datos estructurados en tu CRM automÃ¡ticamente." },
-                { title: "Reporting Inteligente", desc: "Dashboards que se actualizan solos y te envÃ­an alertas de KPIs crÃ­ticos cada maÃ±ana." }
+                { title: "Extracción de Información", desc: "Convierte PDFs, facturas o emails en datos estructurados en tu CRM automáticamente." },
+                { title: "Reporting Inteligente", desc: "Dashboards que se actualizan solos y te envían alertas de KPIs críticos cada mañana." }
               ]
             },
             {
@@ -40,7 +40,7 @@ const Automations: React.FC = () => {
               color: "text-cyber-purple",
               borderColor: "bg-cyber-purple",
               items: [
-                { title: "GeneraciÃ³n de Presupuestos", desc: "Crea propuestas personalizadas en segundos basadas en el formulario del cliente." },
+                { title: "Generación de Presupuestos", desc: "Crea propuestas personalizadas en segundos basadas en el formulario del cliente." },
                 { title: "Onboarding de Clientes", desc: "Desde el pago hasta el acceso al servicio: todo el proceso de bienvenida automatizado." }
               ]
             }

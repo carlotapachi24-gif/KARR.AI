@@ -8,12 +8,12 @@ const Manifesto: React.FC = () => {
         <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase mb-12">Si todo depende de ti,<br /> <span className="italic text-cyber-purple">tu tiempo no es tuyo.</span></h2>
         <div className="space-y-12 text-xl font-light text-slate-300 leading-relaxed">
           <p className="max-w-2xl mx-auto">
-            Hay negocios que crecenâ€¦ y negocios que solo se vuelven mÃ¡s pesados. No por falta de talento, sino por fricciÃ³n: mensajes, coordinaciÃ³n, recordar cosas, reordenar la agenda, perseguir decisiones.
+            Hay negocios que crecen... y negocios que solo se vuelven más pesados. No por falta de talento, sino por fricción: mensajes, coordinación, recordar cosas, reordenar la agenda, perseguir decisiones.
           </p>
           
           <p className="text-lg font-bold tracking-[0.4em] uppercase text-cyber-purple py-4">
-            La salida no es correr mÃ¡s.<br />
-            Es diseÃ±ar un sistema.
+            La salida no es correr más.<br />
+            Es diseñar un sistema.
           </p>
           
           <p className="max-w-2xl mx-auto">
