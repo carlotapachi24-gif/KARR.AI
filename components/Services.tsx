@@ -56,9 +56,9 @@ const Services: React.FC = () => {
         <div className="reveal mt-20 p-12 glass-card rounded-[3rem] text-center border-white/10 hover:border-white/20 transition-all">
           <h3 className="text-3xl font-bold uppercase mb-6">¿Dudas sobre por dónde empezar?</h3>
           <p className="text-slate-400 mb-8 max-w-xl mx-auto">Reserva una llamada estratégica de 15 minutos y definiremos tu hoja de ruta hacia la eficiencia total.</p>
-          <button className="bg-white text-black px-6 sm:px-10 py-4 rounded-xl font-extrabold uppercase text-[11px] sm:text-sm tracking-[0.08em] sm:tracking-widest whitespace-nowrap hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
+          <a href="#contacto" className="inline-flex items-center justify-center bg-white text-black px-6 sm:px-10 py-4 rounded-xl font-extrabold uppercase text-[11px] sm:text-sm tracking-[0.08em] sm:tracking-widest whitespace-nowrap hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
             Solicitar diagnóstico
-          </button>
+          </a>
         </div>
       </div>
     </section>

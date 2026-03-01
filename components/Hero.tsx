@@ -47,13 +47,13 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="reveal stagger-4 flex flex-col sm:flex-row gap-6 justify-center">
-          <button className="relative overflow-hidden bg-white text-black px-12 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:scale-105 transition-all shadow-[0_0_40px_rgba(255,255,255,0.3)] group">
+          <a href="#contacto" className="relative overflow-hidden bg-white text-black px-12 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:scale-105 transition-all shadow-[0_0_40px_rgba(255,255,255,0.3)] group inline-flex items-center justify-center">
             <span className="relative z-10">Analizar mi negocio</span>
             <div className="absolute inset-0 h-full w-full scale-0 rounded-xl transition-all duration-300 group-hover:scale-100 group-hover:bg-slate-200"></div>
-          </button>
-          <button className="glass-card px-12 py-5 rounded-xl font-black text-sm tracking-widest uppercase text-white border-white/10 hover:border-cyber-purple transition-all hover:bg-white/5">
+          </a>
+          <a href="#casos" className="glass-card px-12 py-5 rounded-xl font-black text-sm tracking-widest uppercase text-white border-white/10 hover:border-cyber-purple transition-all hover:bg-white/5 inline-flex items-center justify-center">
             Ver automatizaciones
-          </button>
+          </a>
         </div>
       </div>
 

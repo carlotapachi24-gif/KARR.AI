@@ -12,6 +12,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+const CONTACT_EMAIL = 'carlotaloopezcarracedo@gmail.com';
+
 const App: React.FC = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -60,9 +62,13 @@ const App: React.FC = () => {
 
       {/* Mobile Floating Action Button */}
       <div className="lg:hidden fixed bottom-6 right-6 z-[110]">
-        <button className="w-16 h-16 bg-white text-black rounded-full shadow-[0_0_30px_rgba(255,255,255,0.2)] flex items-center justify-center group active:scale-95 transition-all animate-bounce hover:animate-none">
+        <a
+          href={`mailto:${CONTACT_EMAIL}`}
+          className="w-16 h-16 bg-white text-black rounded-full shadow-[0_0_30px_rgba(255,255,255,0.2)] flex items-center justify-center group active:scale-95 transition-all animate-bounce hover:animate-none"
+          aria-label="Enviar email"
+        >
           <span className="material-symbols-outlined text-3xl">chat_bubble</span>
-        </button>
+        </a>
       </div>
     </div>
   );

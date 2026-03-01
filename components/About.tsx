@@ -44,9 +44,9 @@ const About: React.FC = () => {
                 ))}
               </ul>
             </div>
-            <button className="reveal stagger-3 bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
+            <a href="#contacto" className="reveal stagger-3 inline-flex items-center justify-center bg-white text-black px-10 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] hover:scale-105 transition-all">
               Hablemos de tu proyecto
-            </button>
+            </a>
           </div>
         </div>
       </div>
