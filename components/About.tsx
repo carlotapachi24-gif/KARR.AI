@@ -6,24 +6,17 @@ const About: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           <div className="relative reveal-scale">
-            <div className="relative aspect-[4/5] rounded-[3rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 group cursor-none">
-              <div className="absolute inset-0 bg-gradient-to-b from-white/[0.04] via-transparent to-void"></div>
+            <div className="aspect-[4/5] rounded-[3rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 group cursor-none">
               <img 
                 alt="Carlota - AI Architect" 
-                className="relative z-10 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 src={`${import.meta.env.BASE_URL}ChatGPT Image 1 mar 2026, 20_59_20-Photoroom (1).png`}
                 loading="lazy"
                 decoding="async"
-                style={{
-                  WebkitMaskImage: 'linear-gradient(to bottom, black 52%, transparent 100%)',
-                  maskImage: 'linear-gradient(to bottom, black 52%, transparent 100%)',
-                }}
               />
-              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[42%] bg-gradient-to-t from-[#050505] via-[#050505]/85 to-transparent z-20"></div>
-              <div className="pointer-events-none absolute left-1/2 bottom-5 h-20 w-[78%] -translate-x-1/2 rounded-full bg-cyber-purple/25 blur-3xl opacity-60 z-20"></div>
             </div>
-            <div className="absolute -bottom-8 -right-8 glass-card p-8 rounded-3xl border-white/20 animate-float">
-              <div className="flex gap-2">
+            <div className="absolute left-1/2 -translate-x-1/2 -bottom-10 glass-card px-8 py-6 rounded-3xl border-white/20 animate-float w-[92%] max-w-[720px]">
+              <div className="flex flex-wrap justify-center gap-2">
                 <span className="px-4 py-1.5 rounded-full bg-cyber-purple/20 text-cyber-purple text-[10px] font-bold uppercase tracking-widest border border-cyber-purple/30">Claridad</span>
                 <span className="px-4 py-1.5 rounded-full bg-cyber-cyan/20 text-cyber-cyan text-[10px] font-bold uppercase tracking-widest border border-cyber-cyan/30">Control</span>
                 <span className="px-4 py-1.5 rounded-full bg-white/10 text-white text-[10px] font-bold uppercase tracking-widest border border-white/20">Resultado</span>
