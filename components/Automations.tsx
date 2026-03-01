@@ -4,7 +4,7 @@ const Automations: React.FC = () => {
   return (
     <section id="automatizaciones" className="py-32 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="reveal text-6xl lg:text-8xl font-black tracking-tighter uppercase mb-24">Capacidades<br/><span className="text-cyber-purple">Y Sistemas</span></h2>
+        <h2 className="reveal text-5xl sm:text-6xl lg:text-8xl font-black tracking-tighter uppercase mb-24">Capacidades<br/><span className="text-cyber-purple">Y Sistemas</span></h2>
         
         <div className="grid md:grid-cols-2 gap-16">
           {[

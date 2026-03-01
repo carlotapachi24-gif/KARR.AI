@@ -15,11 +15,11 @@ const About: React.FC = () => {
                 decoding="async"
               />
             </div>
-            <div className="-mt-px w-full px-8 py-6 rounded-3xl border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl shadow-[0_20px_40px_rgba(0,0,0,0.35)]">
-              <div className="flex flex-wrap justify-center gap-2">
-                <span className="px-4 py-1.5 rounded-full bg-cyber-purple/20 text-cyber-purple text-[10px] font-bold uppercase tracking-widest border border-cyber-purple/30">Claridad</span>
-                <span className="px-4 py-1.5 rounded-full bg-cyber-cyan/20 text-cyber-cyan text-[10px] font-bold uppercase tracking-widest border border-cyber-cyan/30">Control</span>
-                <span className="px-4 py-1.5 rounded-full bg-white/10 text-white text-[10px] font-bold uppercase tracking-widest border border-white/20">Resultado</span>
+            <div className="-mt-px w-full px-3 sm:px-8 py-5 sm:py-6 rounded-3xl border border-white/20 bg-gradient-to-b from-white/[0.03] to-white/[0.01] backdrop-blur-xl shadow-[0_20px_40px_rgba(0,0,0,0.35)] overflow-hidden">
+              <div className="flex flex-nowrap justify-center gap-1.5 sm:gap-2">
+                <span className="px-3 sm:px-4 py-1.5 rounded-full bg-cyber-purple/20 text-cyber-purple text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.12em] sm:tracking-widest border border-cyber-purple/30 whitespace-nowrap">Claridad</span>
+                <span className="px-3 sm:px-4 py-1.5 rounded-full bg-cyber-cyan/20 text-cyber-cyan text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.12em] sm:tracking-widest border border-cyber-cyan/30 whitespace-nowrap">Control</span>
+                <span className="px-3 sm:px-4 py-1.5 rounded-full bg-white/10 text-white text-[9px] sm:text-[10px] font-bold uppercase tracking-[0.12em] sm:tracking-widest border border-white/20 whitespace-nowrap">Resultado</span>
               </div>
             </div>
           </div>
