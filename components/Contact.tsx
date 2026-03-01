@@ -11,17 +11,18 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const subject = `Solicitud de diagnóstico - ${businessName || fullName || 'Nuevo contacto'}`;
+    const subject = `Solicitud de diagnóstico - ${businessName.trim() || fullName.trim() || 'Nuevo contacto'}`;
     const body = [
-      `Nombre: ${fullName || '-'}`,
-      `Email profesional: ${businessEmail || '-'}`,
-      `Empresa / Proyecto: ${businessName || '-'}`,
+      `Nombre: ${fullName.trim() || '-'}`,
+      `Email profesional: ${businessEmail.trim() || '-'}`,
+      `Empresa / Proyecto: ${businessName.trim() || '-'}`,
       '',
       '¿Dónde pierdes más tiempo hoy?',
-      message || '-',
+      message.trim() || '-',
     ].join('\n');
 
-    window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoUrl;
   };
 
   return (
@@ -53,7 +54,7 @@ const Contact: React.FC = () => {
           </div>
           <div className="relative reveal-scale stagger-2">
             <div className="glass-card p-12 rounded-[3rem] border-white/20 hover:border-white/30 transition-all">
-              <form className="space-y-8" onSubmit={handleSubmit}>
+              <form className="space-y-8" onSubmit={handleSubmit} noValidate>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="space-y-2 group">
                     <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500 ml-1 group-focus-within:text-cyber-purple transition-colors">Nombre Completo</label>
@@ -70,7 +71,8 @@ const Contact: React.FC = () => {
                     <input
                       className="w-full bg-white/5 border-white/10 rounded-2xl px-6 py-4 text-white focus:border-cyber-purple focus:ring-0 focus:bg-white/10 outline-none transition-all placeholder:text-white/20"
                       placeholder="tu@empresa.com"
-                      type="email"
+                      type="text"
+                      inputMode="email"
                       value={businessEmail}
                       onChange={(e) => setBusinessEmail(e.target.value)}
                     />

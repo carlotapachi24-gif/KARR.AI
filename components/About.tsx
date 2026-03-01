@@ -10,7 +10,7 @@ const About: React.FC = () => {
               <img 
                 alt="Carlota - AI Architect" 
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" 
-                src={`${import.meta.env.BASE_URL}Gemini_Generated_Image_d946i3d946i3d946-Photoroom (1).png`}
+                src={`${import.meta.env.BASE_URL}ChatGPT Image 1 mar 2026, 20_59_20-Photoroom (1).png`}
                 loading="lazy"
                 decoding="async"
               />
