@@ -20,7 +20,6 @@ const Hero: React.FC = () => {
         
         <div className="relative isolate mb-12">
           <div className="pointer-events-none absolute inset-x-0 top-1/2 mx-auto h-[220px] w-[94%] max-w-[980px] -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(139,92,246,0.42)_0%,rgba(139,92,246,0.2)_36%,rgba(139,92,246,0.08)_58%,transparent_76%)] blur-2xl"></div>
-          <div className="pointer-events-none absolute left-1/2 top-1/2 h-[220px] w-[84vw] max-w-[860px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyber-purple/30 shadow-[0_0_90px_rgba(139,92,246,0.25)]"></div>
 
           <h1 className="reveal stagger-1 relative text-6xl md:text-8xl lg:text-[9rem] font-extrabold leading-[0.85] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)]">
             TE DEVUELVO<br />
