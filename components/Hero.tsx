@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="inicio" className="relative min-h-[100svh] flex items-center justify-center pt-32 pb-20 overflow-hidden">
+    <section id="inicio" className="relative min-h-[100svh] flex items-center justify-center pt-32 pb-20 overflow-y-hidden overflow-x-visible">
       {/* Animated blobs */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-cyber-purple/10 blur-[120px] rounded-full -z-10 sm:animate-blob mix-blend-screen"></div>
       <div className="hidden sm:block absolute top-1/3 right-1/4 w-[500px] h-[500px] bg-cyber-cyan/5 blur-[100px] rounded-full -z-10 sm:animate-blob animation-delay-2000 mix-blend-screen"></div>
@@ -21,10 +21,10 @@ const Hero: React.FC = () => {
         <div className="relative isolate mb-12">
           <div className="pointer-events-none absolute inset-x-0 top-1/2 mx-auto h-[220px] w-[94%] max-w-[980px] -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(139,92,246,0.42)_0%,rgba(139,92,246,0.2)_36%,rgba(139,92,246,0.08)_58%,transparent_76%)] blur-2xl"></div>
 
-          <h1 className="reveal stagger-1 relative text-[clamp(2.5rem,13vw,3.75rem)] sm:text-6xl md:text-8xl lg:text-[9rem] font-extrabold leading-[0.88] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)]">
-            <span className="block whitespace-nowrap">TE DEVUELVO</span>
-            <span className="block whitespace-nowrap">
-              TU <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text">TIEMPO</span>
+          <h1 className="reveal stagger-1 relative text-[clamp(2.25rem,11.8vw,3.5rem)] sm:text-6xl md:text-8xl lg:text-[9rem] font-extrabold leading-[0.88] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)] overflow-visible">
+            <span className="block whitespace-nowrap px-[0.04em] sm:px-0">TE DEVUELVO</span>
+            <span className="block whitespace-nowrap pl-[0.04em] pr-[0.14em] sm:px-0">
+              TU <span className="inline-block italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text pr-[0.06em] sm:pr-0">TIEMPO</span>
             </span>
           </h1>
         </div>

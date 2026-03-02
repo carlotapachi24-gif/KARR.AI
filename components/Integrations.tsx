@@ -14,12 +14,12 @@ const Integrations: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 sm:py-32 px-6 relative overflow-hidden">
+    <section className="py-20 sm:py-32 px-6 relative overflow-y-hidden overflow-x-visible">
       <div className="max-w-7xl mx-auto text-center">
         <span className="text-cyber-purple font-mono text-xs tracking-[0.5em] uppercase mb-6 sm:mb-8 block reveal">Integraciones</span>
-        <h2 className="reveal text-4xl md:text-6xl font-black tracking-tighter uppercase mb-10 sm:mb-16 md:mb-24">
+        <h2 className="reveal text-[2.35rem] sm:text-4xl md:text-6xl font-black tracking-tighter uppercase mb-10 sm:mb-16 md:mb-24 px-3 sm:px-0 overflow-visible">
           Conecta tu negocio con <br />
-          <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-cyber-purple to-cyber-cyan pr-4">todas tus herramientas</span>
+          <span className="inline-block italic text-transparent bg-clip-text bg-gradient-to-r from-cyber-purple to-cyber-cyan pr-[0.14em] sm:pr-4">todas tus herramientas</span>
         </h2>
 
         {/* 2D Orbit Container */}
