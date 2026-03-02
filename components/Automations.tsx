@@ -2,11 +2,11 @@ import React from 'react';
 
 const Automations: React.FC = () => {
   return (
-    <section id="automatizaciones" className="py-32 px-6">
+    <section id="automatizaciones" className="pt-24 pb-14 sm:py-32 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="reveal text-5xl sm:text-6xl lg:text-8xl font-black tracking-tighter uppercase mb-24">Capacidades<br/><span className="text-cyber-purple">Y Sistemas</span></h2>
+        <h2 className="reveal text-5xl sm:text-6xl lg:text-8xl font-black tracking-tighter uppercase mb-14 sm:mb-24">Capacidades<br/><span className="text-cyber-purple">Y Sistemas</span></h2>
         
-        <div className="grid md:grid-cols-2 gap-16">
+        <div className="grid md:grid-cols-2 gap-10 sm:gap-16">
           {[
             {
               title: "Atención al cliente",

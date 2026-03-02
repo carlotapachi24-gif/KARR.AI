@@ -14,10 +14,10 @@ const Integrations: React.FC = () => {
   ];
 
   return (
-    <section className="py-32 px-6 relative overflow-hidden">
+    <section className="py-20 sm:py-32 px-6 relative overflow-hidden">
       <div className="max-w-7xl mx-auto text-center">
-        <span className="text-cyber-purple font-mono text-xs tracking-[0.5em] uppercase mb-8 block reveal">Integraciones</span>
-        <h2 className="reveal text-4xl md:text-6xl font-black tracking-tighter uppercase mb-16 md:mb-24">
+        <span className="text-cyber-purple font-mono text-xs tracking-[0.5em] uppercase mb-6 sm:mb-8 block reveal">Integraciones</span>
+        <h2 className="reveal text-4xl md:text-6xl font-black tracking-tighter uppercase mb-10 sm:mb-16 md:mb-24">
           Conecta tu negocio con <br />
           <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-cyber-purple to-cyber-cyan pr-4">todas tus herramientas</span>
         </h2>

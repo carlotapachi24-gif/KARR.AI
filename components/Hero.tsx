@@ -21,10 +21,11 @@ const Hero: React.FC = () => {
         <div className="relative isolate mb-12">
           <div className="pointer-events-none absolute inset-x-0 top-1/2 mx-auto h-[220px] w-[94%] max-w-[980px] -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(139,92,246,0.42)_0%,rgba(139,92,246,0.2)_36%,rgba(139,92,246,0.08)_58%,transparent_76%)] blur-2xl"></div>
 
-          <h1 className="reveal stagger-1 relative text-6xl md:text-8xl lg:text-[9rem] font-extrabold leading-[0.85] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)]">
-            TE DEVUELVO
-            <br />
-            TU <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text pr-4">TIEMPO</span>
+          <h1 className="reveal stagger-1 relative text-[clamp(2.5rem,13vw,3.75rem)] sm:text-6xl md:text-8xl lg:text-[9rem] font-extrabold leading-[0.88] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)]">
+            <span className="block whitespace-nowrap">TE DEVUELVO</span>
+            <span className="block whitespace-nowrap">
+              TU <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text">TIEMPO</span>
+            </span>
           </h1>
         </div>
 
