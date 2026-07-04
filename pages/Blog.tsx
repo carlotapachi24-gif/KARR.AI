@@ -72,6 +72,33 @@ const CATEGORIES: BlogCategory[] = [
 
 const POSTS = [
   {
+    slug: '/blog/automatizacion-youtube-ia-pymes/',
+    title: 'Automatizacion de YouTube con IA para pymes: contenido sin mas carga manual',
+    date: '2026-07-04',
+    dateLabel: '4 julio 2026',
+    desc: 'Como convertir videos, comentarios y formularios en tareas, CRM y seguimiento sin crear otro proceso manual.',
+    tags: ['YouTube', 'IA', 'Captacion'],
+    category: 'ia',
+  },
+  {
+    slug: '/blog/automatizacion-google-workspace-ia-pymes/',
+    title: 'Automatizacion con IA en Google Workspace: Gmail, Drive y Sheets con control',
+    date: '2026-07-04',
+    dateLabel: '4 julio 2026',
+    desc: 'Flujos utiles con Gmail, Drive, Calendar y Sheets para ordenar tareas, documentos y seguimiento.',
+    tags: ['Google Workspace', 'IA', 'Procesos'],
+    category: 'procesos',
+  },
+  {
+    slug: '/blog/manychat-automatizacion-ia-pymes/',
+    title: 'ManyChat y automatizacion con IA: cuando usarlo en una pyme de servicios',
+    date: '2026-07-04',
+    dateLabel: '4 julio 2026',
+    desc: 'Cuando ManyChat ayuda a ordenar conversaciones y cuando conviene conectarlo a CRM o revision humana.',
+    tags: ['ManyChat', 'IA', 'WhatsApp'],
+    category: 'whatsapp',
+  },
+  {
     slug: '/blog/automatizacion-industrial-ia-pymes/',
     title: 'Automatizacion industrial con IA para pymes: casos utiles y limites',
     date: '2026-06-20',

@@ -95,6 +95,9 @@ const pageMap: Record<string, PageLoader> = {
   'blog-seguridad-datos-ia': () => import('./BlogPostKeywordCluster2'),
   'blog-mantenimiento-automatizaciones-ia': () => import('./BlogPostKeywordCluster2'),
   'blog-piloto-automatizacion-ia': () => import('./BlogPostKeywordCluster2'),
+  'blog-youtube-ia-pymes': () => import('./BlogPostKeywordCluster3'),
+  'blog-google-workspace-ia-pymes': () => import('./BlogPostKeywordCluster3'),
+  'blog-manychat-ia-pymes': () => import('./BlogPostKeywordCluster3'),
 };
 
 const rootEl = document.getElementById('root')!;
