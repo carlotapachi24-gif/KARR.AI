@@ -12,8 +12,7 @@ import Process from './components/Process';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
-const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
+import { whatsappUrl, trackWhatsappClick } from './lib/cta';
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -70,12 +69,15 @@ const App: React.FC = () => {
       {/* Footer */}
       <Footer />
 
-      {/* Floating Action Button */}
+      {/* Floating Action Button — WhatsApp, recepción humana */}
       <div className="fixed bottom-6 right-6 z-[110]">
         <a
-          href={`mailto:${CONTACT_EMAIL}`}
+          href={whatsappUrl('home')}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => trackWhatsappClick('home', 'fab')}
           className="w-16 h-16 bg-white text-black rounded-full shadow-[0_0_30px_rgba(255,255,255,0.2)] flex items-center justify-center group active:scale-95 transition-all"
-          aria-label="Enviar email"
+          aria-label="Escribir por WhatsApp (te responde una persona)"
         >
           <MessageCircle size={28} />
         </a>
