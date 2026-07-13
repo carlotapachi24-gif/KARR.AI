@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <div className="relative reveal-scale">
             <div className="aspect-[4/5] rounded-[3rem] overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 group cursor-none">
               <img
-                alt="Carlota López Carracedo, especialista en automatización e IA para pymes"
+                alt="Carlota López, fundadora de KAIRAS — sistemas de atención y seguimiento para pymes de servicios"
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 src={`${import.meta.env.BASE_URL}og-kairas.webp`}
                 loading="lazy"
