@@ -1,12 +1,12 @@
 import React from 'react';
-import { Clock, CalendarCheck, BarChart3, Wrench, ChevronDown } from 'lucide-react';
+import { ListChecks, Share2, SlidersHorizontal, BarChart3, ChevronDown } from 'lucide-react';
 import { whatsappUrl, trackWhatsappClick } from '../lib/cta';
 
 const badges = [
-  { Icon: Clock, text: 'Respuesta a tiempo' },
-  { Icon: CalendarCheck, text: 'Seguimiento con fecha' },
-  { Icon: BarChart3, text: 'El número, cada mes' },
-  { Icon: Wrench, text: 'Sobre tus herramientas' },
+  { Icon: ListChecks, text: 'Menos tareas manuales' },
+  { Icon: Share2, text: 'Información conectada' },
+  { Icon: SlidersHorizontal, text: 'Procesos con control' },
+  { Icon: BarChart3, text: 'Métricas claras' },
 ];
 
 const Hero: React.FC = () => {
@@ -22,33 +22,37 @@ const Hero: React.FC = () => {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-cyber-purple"></span>
           </span>
           <span className="text-[8px] sm:text-[10px] font-bold tracking-[0.08em] sm:tracking-[0.2em] uppercase text-white/70 whitespace-nowrap">
-            Pymes de servicios · Galicia
+            Optimización operativa · Galicia
           </span>
         </div>
 
         <div className="relative isolate mb-12">
           <div className="pointer-events-none absolute inset-x-0 top-1/2 mx-auto h-[220px] w-[94%] max-w-[980px] -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(139,92,246,0.42)_0%,rgba(139,92,246,0.2)_36%,rgba(139,92,246,0.08)_58%,transparent_76%)] blur-2xl"></div>
 
-          <p className="reveal stagger-1 relative text-[clamp(1.9rem,8.5vw,3rem)] sm:text-5xl md:text-7xl lg:text-[6.5rem] font-extrabold leading-[0.95] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)] overflow-visible">
-            <span className="block px-[0.04em] sm:px-0">Lo que entra en tu negocio</span>
+          <p className="reveal stagger-1 relative text-[clamp(1.6rem,6.8vw,2.4rem)] sm:text-4xl md:text-6xl lg:text-[4.6rem] font-extrabold leading-[1.02] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)] overflow-visible">
+            <span className="block px-[0.04em] sm:px-0">Tu negocio no necesita más herramientas.</span>
             <span className="block pl-[0.04em] pr-[0.14em] sm:px-0">
-              no debería <span className="inline-block italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text pr-[0.06em] sm:pr-0">{`perderse `}</span>
+              Necesita que todo <span className="inline-block italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text pr-[0.06em] sm:pr-0">{`funcione mejor `}</span>
             </span>
           </p>
         </div>
 
         <h1 className="reveal stagger-2 text-sm sm:text-base font-bold tracking-[0.18em] uppercase text-white/50 mb-3 -mt-6">
-          Sistemas de atención, seguimiento y medición para pymes de servicios en Galicia
+          Sistemas a medida para pymes de servicios
         </h1>
 
-        <p className="reveal stagger-3 text-lg md:text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">
-          Consultas respondidas a tiempo, presupuestos con seguimiento y un número claro cada mes.
-          Montado sobre las herramientas que ya usas, con tu equipo al mando.
+        <p className="reveal stagger-3 text-lg md:text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-4">
+          Ordenamos procesos, conectamos información y automatizamos las tareas que hoy
+          dependen de tiempo, memoria y trabajo manual.
+        </p>
+        <p className="reveal stagger-3 text-base md:text-lg text-slate-500 max-w-3xl mx-auto font-light leading-relaxed mb-12">
+          Trabajamos sobre las herramientas que ya utilizas para que tu equipo tenga menos carga,
+          más control y una operativa que no dependa de apagar fuegos cada día.
         </p>
 
         <div className="reveal stagger-4 flex flex-wrap justify-center gap-4 max-w-4xl mx-auto mb-16">
           {badges.map(({ Icon, text }) => (
-            <div key={text} className="w-44 flex items-center gap-2 glass-card p-3 rounded-xl border-white/5 hover:bg-white/10 group transition-all duration-300">
+            <div key={text} className="w-52 flex items-center gap-2 glass-card p-3 rounded-xl border-white/5 hover:bg-white/10 group transition-all duration-300">
               <Icon className="text-cyber-purple w-5 h-5 flex-shrink-0 group-hover:scale-110 transition-transform" />
               <span className="text-[10px] font-bold uppercase tracking-tight">{text}</span>
             </div>
@@ -63,7 +67,7 @@ const Hero: React.FC = () => {
             onClick={() => trackWhatsappClick('home', 'hero')}
             className="relative overflow-hidden bg-white text-black px-12 py-5 rounded-xl font-black text-sm tracking-widest uppercase hover:scale-105 transition-all shadow-[0_0_40px_rgba(255,255,255,0.3)] group inline-flex items-center justify-center"
           >
-            <span className="relative z-10">Escríbeme por WhatsApp</span>
+            <span className="relative z-10">Quiero revisar mi operativa</span>
             <div className="absolute inset-0 h-full w-full scale-0 rounded-xl transition-all duration-300 group-hover:scale-100 group-hover:bg-slate-200"></div>
           </a>
           <a href="/#como-funciona" className="glass-card px-12 py-5 rounded-xl font-black text-sm tracking-widest uppercase text-white border-white/10 hover:border-cyber-purple transition-all hover:bg-white/5 inline-flex items-center justify-center">
