@@ -29,25 +29,21 @@ const Hero: React.FC = () => {
         <div className="relative isolate mb-12">
           <div className="pointer-events-none absolute inset-x-0 top-1/2 mx-auto h-[220px] w-[94%] max-w-[980px] -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(139,92,246,0.42)_0%,rgba(139,92,246,0.2)_36%,rgba(139,92,246,0.08)_58%,transparent_76%)] blur-2xl"></div>
 
-          <p className="reveal stagger-1 relative text-[clamp(1.6rem,6.8vw,2.4rem)] sm:text-4xl md:text-6xl lg:text-[4.6rem] font-extrabold leading-[1.02] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)] overflow-visible">
-            <span className="block px-[0.04em] sm:px-0">Tu negocio no necesita más herramientas.</span>
-            <span className="block pl-[0.04em] pr-[0.14em] sm:px-0">
-              Necesita que todo <span className="inline-block italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text pr-[0.06em] sm:pr-0">{`funcione mejor `}</span>
+          <p className="reveal stagger-1 relative text-[clamp(2.25rem,11.8vw,3.5rem)] sm:text-6xl md:text-8xl lg:text-[9rem] font-extrabold leading-[0.88] tracking-tighter uppercase [text-shadow:0_0_55px_rgba(139,92,246,0.28)] overflow-visible">
+            <span className="block whitespace-nowrap px-[0.04em] sm:px-0">TE DEVUELVO</span>
+            <span className="block whitespace-nowrap pl-[0.04em] pr-[0.14em] sm:px-0">
+              TU <span className="inline-block italic text-transparent bg-clip-text bg-gradient-to-r from-white via-cyber-purple to-white animate-text pr-[0.06em] sm:pr-0">{`TIEMPO `}</span>
             </span>
           </p>
         </div>
 
         <h1 className="reveal stagger-2 text-sm sm:text-base font-bold tracking-[0.18em] uppercase text-white/50 mb-3 -mt-6">
-          Sistemas a medida para pymes de servicios
+          Sistemas a medida para pymes
         </h1>
 
-        <p className="reveal stagger-3 text-lg md:text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-4">
+        <p className="reveal stagger-3 text-lg md:text-xl text-slate-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">
           Ordenamos procesos, conectamos información y automatizamos las tareas que hoy
           dependen de tiempo, memoria y trabajo manual.
-        </p>
-        <p className="reveal stagger-3 text-base md:text-lg text-slate-500 max-w-3xl mx-auto font-light leading-relaxed mb-12">
-          Trabajamos sobre las herramientas que ya utilizas para que tu equipo tenga menos carga,
-          más control y una operativa que no dependa de apagar fuegos cada día.
         </p>
 
         <div className="reveal stagger-4 flex flex-wrap justify-center gap-4 max-w-4xl mx-auto mb-16">
