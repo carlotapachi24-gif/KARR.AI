@@ -39,6 +39,8 @@ export default defineConfig(({ mode }) => {
           automatizacionSeguimiento: path.resolve(__dirname, 'automatizacion-seguimiento-clientes/index.html'),
           crmPymesSeguimientoClientes: path.resolve(__dirname, 'crm-pymes-seguimiento-clientes/index.html'),
           automatizacionClinicas: path.resolve(__dirname, 'automatizacion-clinicas/index.html'),
+          centrosEstetica: path.resolve(__dirname, 'centros-estetica/index.html'),
+          gracias: path.resolve(__dirname, 'gracias/index.html'),
           galiciaNew: path.resolve(__dirname, 'automatizacion-empresas-galicia/index.html'),
           blog: path.resolve(__dirname, 'blog/index.html'),
           blogPost1: path.resolve(__dirname, 'blog/automatizaciones-que-recuperan-tiempo-pymes/index.html'),

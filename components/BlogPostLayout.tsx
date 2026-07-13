@@ -2,6 +2,7 @@ import React, { type ReactNode } from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { whatsappUrl, trackWhatsappClick } from '../lib/cta';
 
 const CONTACT_EMAIL = 'carlota.kairas@gmail.com';
 
@@ -102,9 +103,12 @@ const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({
 
       <div className="fixed bottom-6 right-6 z-[110]">
         <a
-          href={`mailto:${CONTACT_EMAIL}`}
+          href={whatsappUrl('blog')}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => trackWhatsappClick('blog', 'fab')}
           className="w-16 h-16 bg-white text-black rounded-full shadow-[0_0_30px_rgba(255,255,255,0.2)] flex items-center justify-center active:scale-95 transition-all"
-          aria-label="Enviar email"
+          aria-label="Escribir por WhatsApp (te responde una persona)"
         >
           <MessageCircle size={28} />
         </a>

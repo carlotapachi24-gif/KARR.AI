@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
           <div className="text-[10px] text-slate-600 font-mono tracking-widest uppercase">© 2026 KAIRAS. All rights reserved.</div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-cyber-purple animate-pulse" />
-            <span className="text-[10px] text-slate-600 font-mono uppercase">By Carlota Lopez Carracedo</span>
+            <span className="text-[10px] text-slate-600 font-mono uppercase">Carlota López — fundadora de KAIRAS</span>
           </div>
         </div>
       </div>
