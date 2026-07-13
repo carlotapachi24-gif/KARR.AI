@@ -8,7 +8,8 @@ const SITE_URL = 'https://kairas.es';
 const EXCLUDED_DIRS = new Set(['.git', '.claude', 'node_modules', 'dist']);
 const EXCLUDED_CANONICAL_PATHS = new Set([
   '/automatizacion-ia-empresas-galicia/',
-  '/automatizacion-procesos-empresas/'
+  '/automatizacion-procesos-empresas/',
+  '/gracias/'
 ]);
 
 const PRIORITY_MAP = {
@@ -23,6 +24,7 @@ const PRIORITY_MAP = {
   '/automatizacion-whatsapp-empresas/': { changefreq: 'monthly', priority: '0.8' },
   '/crm-pymes-seguimiento-clientes/': { changefreq: 'monthly', priority: '0.8' },
   '/automatizacion-clinicas/': { changefreq: 'monthly', priority: '0.7' },
+  '/centros-estetica/': { changefreq: 'weekly', priority: '0.9' },
   '/blog/': { changefreq: 'weekly', priority: '0.7' },
   '/blog/automatizaciones-que-recuperan-tiempo-pymes/': { changefreq: 'monthly', priority: '0.6' },
   '/blog/por-que-las-pymes-pierden-clientes-antes-de-firmar/': { changefreq: 'monthly', priority: '0.6' },
