@@ -72,6 +72,33 @@ const CATEGORIES: BlogCategory[] = [
 
 const POSTS = [
   {
+    slug: '/blog/automatizacion-redes-sociales-ia-pymes/',
+    title: 'Automatizacion de redes sociales con IA: publicar menos a mano y seguir mejor',
+    date: '2026-07-23',
+    dateLabel: '23 julio 2026',
+    desc: 'Como usar IA para ordenar contenido, comentarios, mensajes y leads sin crear mas carga manual.',
+    tags: ['Redes sociales', 'IA', 'CRM'],
+    category: 'crm',
+  },
+  {
+    slug: '/blog/automatizacion-logistica-ia-pymes-servicios/',
+    title: 'Automatizacion logistica con IA para pymes de servicios: rutas, partes e incidencias',
+    date: '2026-07-23',
+    dateLabel: '23 julio 2026',
+    desc: 'Donde aplicar IA a avisos, rutas, partes e incidencias sin montar un sistema imposible.',
+    tags: ['Logistica', 'IA', 'Procesos'],
+    category: 'sectores',
+  },
+  {
+    slug: '/blog/automatizacion-ia-principiantes-pymes/',
+    title: 'Automatizacion con IA para principiantes: guia para pymes no tecnicas',
+    date: '2026-07-23',
+    dateLabel: '23 julio 2026',
+    desc: 'Como entender entradas, reglas, datos y revision humana antes de comprar herramientas o hacer cursos.',
+    tags: ['Principiantes', 'IA', 'Decision'],
+    category: 'ia',
+  },
+  {
     slug: '/blog/automatizacion-youtube-ia-pymes/',
     title: 'Automatizacion de YouTube con IA para pymes: contenido sin mas carga manual',
     date: '2026-07-04',
