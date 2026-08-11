@@ -72,6 +72,33 @@ const CATEGORIES: BlogCategory[] = [
 
 const POSTS = [
   {
+    slug: '/blog/automatizacion-tiktok-ia-pymes-servicios/',
+    title: 'Automatizacion de TikTok con IA para pymes: del video al seguimiento',
+    date: '2026-08-11',
+    dateLabel: '11 agosto 2026',
+    desc: 'Como convertir ideas, comentarios y mensajes de TikTok en contexto, tareas y leads sin vivir pendiente de la app.',
+    tags: ['TikTok', 'IA', 'Captacion'],
+    category: 'crm',
+  },
+  {
+    slug: '/blog/excel-ia-automatizacion-tareas-pymes/',
+    title: 'Excel, IA y automatizacion de tareas: cuando una hoja ya no basta',
+    date: '2026-08-11',
+    dateLabel: '11 agosto 2026',
+    desc: 'Como pasar de hojas manuales a flujos con datos, alertas y revision sin romper la forma de trabajar del equipo.',
+    tags: ['Excel', 'IA', 'Tareas'],
+    category: 'procesos',
+  },
+  {
+    slug: '/blog/automatizacion-negocios-ia-pymes-servicios/',
+    title: 'Automatizacion de negocios con IA: que ordenar antes de conectar herramientas',
+    date: '2026-08-11',
+    dateLabel: '11 agosto 2026',
+    desc: 'Guia para pymes de servicios que quieren automatizar ventas, atencion y administracion sin crear mas ruido.',
+    tags: ['Negocios', 'IA', 'Procesos'],
+    category: 'ia',
+  },
+  {
     slug: '/blog/automatizacion-redes-sociales-ia-pymes/',
     title: 'Automatizacion de redes sociales con IA: publicar menos a mano y seguir mejor',
     date: '2026-07-23',
