@@ -18,6 +18,15 @@
           "value": "public, max-age=31556952, immutable"
         }
       ]
+    },
+    {
+      "source": "/:path*.(mp3)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
     }
   ],
   "redirects": [

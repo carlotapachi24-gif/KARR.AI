@@ -10,6 +10,7 @@ import Services from './components/Services';
 import Soluciones from './components/Soluciones';
 import Process from './components/Process';
 import About from './components/About';
+import PressHome from './components/PressHome';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { whatsappUrl, trackWhatsappClick } from './lib/cta';
@@ -63,6 +64,7 @@ const App: React.FC = () => {
         <Soluciones />
         <Process />
         <About />
+        <PressHome />
         <Contact />
       </main>
 

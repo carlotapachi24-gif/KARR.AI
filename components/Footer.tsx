@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                 height="40"
               />
             </a>
-            <p className="text-slate-500 max-w-xs font-light">
+            <p className="text-slate-400 max-w-xs font-light">
               Menos tareas. Mas tiempo. Mejor negocio. <br />
               Sistemas de automatizacion con IA.
             </p>
@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-12">
             <div className="space-y-4">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-white/40 block">Principal</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-white/60 block">Principal</span>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/">
                 Inicio
               </a>
@@ -38,13 +38,16 @@ const Footer: React.FC = () => {
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/blog/">
                 Blog
               </a>
+              <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/prensa/">
+                Prensa
+              </a>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/faq/">
                 FAQ
               </a>
             </div>
 
             <div className="space-y-4">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-white/40 block">Soluciones</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-white/60 block">Soluciones</span>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/automatizacion-procesos/">
                 Automatizacion de procesos
               </a>
@@ -63,7 +66,7 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="space-y-4">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-white/40 block">Redes</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-white/60 block">Redes</span>
               <a
                 className="block text-xs font-bold hover:text-cyber-purple transition-colors"
                 href="https://www.linkedin.com/in/carlota-l%C3%B3pez-carracedo-562ab1220/"
@@ -83,7 +86,7 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="space-y-4">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-white/40 block">Legal</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-white/60 block">Legal</span>
               <a className="block text-xs font-bold hover:text-cyber-purple transition-colors" href="/privacidad/">
                 Privacidad
               </a>
@@ -101,10 +104,10 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-[10px] text-slate-600 font-mono tracking-widest uppercase">© 2026 KAIRAS. All rights reserved.</div>
+          <div className="text-[10px] text-slate-400 font-mono tracking-widest uppercase">© 2026 KAIRAS. All rights reserved.</div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-cyber-purple animate-pulse" />
-            <span className="text-[10px] text-slate-600 font-mono uppercase">Carlota López — fundadora de KAIRAS</span>
+            <span className="text-[10px] text-slate-400 font-mono uppercase">Carlota López — fundadora de KAIRAS</span>
           </div>
         </div>
       </div>
