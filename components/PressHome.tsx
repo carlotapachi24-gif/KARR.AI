@@ -10,7 +10,7 @@ const PressHome: React.FC = () => {
           <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-2xl">
               <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.32em] text-[#A78BFA]">Han hablado de KAIRAS</p>
-              <h2 id="press-home-title" className="text-3xl font-black tracking-tight text-white sm:text-4xl">
+              <h2 id="press-home-title" className="text-3xl font-black uppercase tracking-tight text-white sm:text-4xl">
                 Automatización e IA, contadas desde la práctica.
               </h2>
             </div>
