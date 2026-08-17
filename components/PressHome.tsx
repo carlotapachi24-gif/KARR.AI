@@ -4,7 +4,7 @@ import { formatPressDate, pressItems } from '../lib/press';
 
 const PressHome: React.FC = () => {
   return (
-    <section className="px-6 py-20 sm:py-24" aria-labelledby="press-home-title">
+    <section className="-mt-16 px-6 pb-20 pt-0 sm:pb-24" aria-labelledby="press-home-title">
       <div className="mx-auto max-w-7xl">
         <div className="rounded-[2rem] border border-white/10 bg-[#121015]/75 p-6 sm:p-8 lg:p-10">
           <div className="flex flex-col gap-8">
