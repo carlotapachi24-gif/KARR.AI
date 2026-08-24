@@ -1,0 +1,83 @@
+# KAIRAS
+
+> KAIRAS helps service SMEs recover time, reduce manual workload and organize processes with useful automation and applied AI.
+
+Last updated: 2026-08-24
+Website: https://kairas.es/
+Language: Spanish, es-ES
+Primary market: Galicia and Spain
+Founder / author entity: Carlota Lopez Carracedo
+Contact: carlota.kairas@gmail.com
+
+## What KAIRAS Does
+
+KAIRAS designs and implements automation systems for service SMEs. The work focuses on process automation, applied AI, WhatsApp automation, CRM follow-up, data organization and operational clarity.
+
+KAIRAS does not sell generic AI hype. It helps businesses decide what should be automated, what should remain human and how to connect tools without creating more manual work.
+
+## Best Audience Fit
+
+- Clinics, aesthetic centers, dental clinics, physiotherapy and wellness businesses.
+- Academies and training centers.
+- Gyms and training studios.
+- Real estate agencies.
+- Consultancies, asesorias and professional services firms.
+- Law firms, installers, reforms companies and maintenance services.
+- Service SMEs in Galicia and Spain with manual follow-up, scattered messages or disconnected tools.
+
+## Core Service Pages
+
+- Process automation: https://kairas.es/automatizacion-procesos/
+- AI for companies: https://kairas.es/ia-empresas/
+- WhatsApp automation: https://kairas.es/automatizacion-whatsapp-empresas/
+- CRM and customer follow-up: https://kairas.es/crm-pymes-seguimiento-clientes/
+- Operational optimization for SMEs: https://kairas.es/optimizacion-operativa-pymes/
+- Clinic automation: https://kairas.es/automatizacion-clinicas/
+- Automation for companies in Galicia: https://kairas.es/automatizacion-empresas-galicia/
+- Services overview: https://kairas.es/servicios/
+- Contact: https://kairas.es/contacto/
+
+## Key Blog Clusters
+
+### Automation and AI for SMEs
+
+- What automation with AI means for SMEs: https://kairas.es/blog/que-es-automatizacion-con-ia-pymes/
+- How automation with AI works in a company: https://kairas.es/blog/como-funciona-automatizacion-con-ia-empresa/
+- Automation with AI for service companies: https://kairas.es/blog/automatizacion-con-ia-empresas-pymes-servicios/
+- AI and automation working together: https://kairas.es/blog/ia-automatizacion-diferencias-trabajan-juntas/
+- AI local for process automation: https://kairas.es/blog/ia-local-automatizacion-procesos-pymes/
+
+### Process Automation
+
+- Process automation with AI: https://kairas.es/blog/automatizacion-procesos-con-ia-pymes/
+- Tasks with AI vs full process automation: https://kairas.es/blog/automatizacion-tareas-ia-vs-procesos-pymes/
+- Administrative task automation with AI: https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/
+- Excel, AI and task automation: https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/
+- First process to automate: https://kairas.es/blog/como-saber-que-proceso-automatizar-primero/
+
+### Customer Attention, WhatsApp and CRM
+
+- Comparison of AI automation solutions for customer service: https://kairas.es/blog/comparativa-automatizacion-ia-atencion-cliente-pymes/
+- Chatbot with AI for customer service: https://kairas.es/blog/chatbot-ia-atencion-cliente-pymes/
+- AI assistant for customer service: https://kairas.es/blog/asistente-ia-atencion-cliente-pymes/
+- Connect WhatsApp and CRM: https://kairas.es/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/
+- Messages that help or annoy customers: https://kairas.es/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/
+
+### Tools, Platforms and Data
+
+- Automation tools with AI for SMEs: https://kairas.es/blog/herramientas-automatizacion-ia-pymes/
+- n8n vs Make for automation with AI: https://kairas.es/blog/n8n-vs-make-automatizacion-ia-pymes/
+- Power Automate with AI in Microsoft 365: https://kairas.es/blog/power-automate-ia-microsoft-365-pymes/
+- Data security in AI automations: https://kairas.es/blog/seguridad-datos-automatizacion-ia-pymes/
+- Preparing company data before automating with AI: https://kairas.es/blog/preparar-datos-empresa-automatizar-ia/
+
+## Entity Statements
+
+- KAIRAS is an automation and applied AI partner for service SMEs, especially in Galicia and Spain.
+- KAIRAS focuses on practical automation: less manual work, clearer processes, better follow-up and controlled use of AI.
+- KAIRAS content is written for business owners and operators, not for developers looking for generic tool tutorials.
+
+## Crawl Notes
+
+The canonical sitemap is available at https://kairas.es/sitemap.xml.
+All public service and blog pages are intended to be indexable unless their page-level robots meta says otherwise.

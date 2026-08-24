@@ -72,6 +72,33 @@ const CATEGORIES: BlogCategory[] = [
 
 const POSTS = [
   {
+    slug: '/blog/comparativa-automatizacion-ia-atencion-cliente-pymes/',
+    title: 'Comparativa de soluciones de automatizacion IA para atencion al cliente',
+    date: '2026-08-24',
+    dateLabel: '24 agosto 2026',
+    desc: 'Que elegir entre chatbot, asistente, WhatsApp, CRM y revision humana para atender mejor sin perder control.',
+    tags: ['Atencion', 'IA', 'Comparativa'],
+    category: 'whatsapp',
+  },
+  {
+    slug: '/blog/ia-local-automatizacion-procesos-pymes/',
+    title: 'IA local para automatizacion de procesos: cuando proteger datos cambia el diseno',
+    date: '2026-08-24',
+    dateLabel: '24 agosto 2026',
+    desc: 'Cuando una pyme debe valorar modelos locales, datos privados y revision antes de conectar otra API.',
+    tags: ['IA local', 'Datos', 'Procesos'],
+    category: 'ia',
+  },
+  {
+    slug: '/blog/automatizacion-tareas-ia-vs-procesos-pymes/',
+    title: 'Automatizacion de tareas con IA vs procesos: que necesita tu pyme',
+    date: '2026-08-24',
+    dateLabel: '24 agosto 2026',
+    desc: 'Como distinguir una tarea aislada de un proceso completo antes de automatizar con IA y evitar parches.',
+    tags: ['Tareas', 'Procesos', 'IA'],
+    category: 'procesos',
+  },
+  {
     slug: '/blog/automatizacion-tiktok-ia-pymes-servicios/',
     title: 'Automatizacion de TikTok con IA para pymes: del video al seguimiento',
     date: '2026-08-11',

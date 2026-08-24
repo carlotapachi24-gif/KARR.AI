@@ -105,6 +105,9 @@ const pageMap: Record<string, PageLoader> = {
   'blog-tiktok-ia-pymes': () => import('./BlogPostKeywordCluster5'),
   'blog-excel-ia-tareas-pymes': () => import('./BlogPostKeywordCluster5'),
   'blog-negocios-ia-pymes': () => import('./BlogPostKeywordCluster5'),
+  'blog-comparativa-atencion-ia': () => import('./BlogPostKeywordCluster6'),
+  'blog-ia-local-procesos': () => import('./BlogPostKeywordCluster6'),
+  'blog-tareas-vs-procesos-ia': () => import('./BlogPostKeywordCluster6'),
 };
 
 const rootEl = document.getElementById('root')!;
