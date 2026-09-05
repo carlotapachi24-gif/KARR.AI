@@ -2,643 +2,727 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kairas.es/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://kairas.es/accesibilidad/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://kairas.es/answers.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/automatizacion-clinicas/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kairas.es/automatizacion-empresas-galicia/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kairas.es/automatizacion-procesos/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://kairas.es/automatizacion-whatsapp-empresas/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kairas.es/aviso-legal/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/agencia-automatizacion-ia-como-elegir/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/agentes-ia-automatizacion-procesos-pymes/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/aplicaciones-ia-pymes-servicios/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/asistente-ia-atencion-cliente-pymes/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-academias-matriculas-seguimiento/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-asesorias-vencimientos-documentos-clientes/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-clinicas-esteticas-primera-consulta-seguimiento/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-con-ia-empresas-pymes-servicios/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-con-ia-generativa-pymes/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-con-ia-make-pymes/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-con-ia-n8n-pymes/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-despachos-abogados-expedientes-clientes/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-email-ia-pymes/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-empresas-galicia-procesos-retorno/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-empresas-vigo-pymes-servicios/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-facturas-ia-pymes/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-gimnasios-renovaciones-seguimiento-socios/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-google-workspace-ia-pymes/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-ia-gratis-pymes-riesgos/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-ia-marketing-digital-pymes/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-ia-principiantes-pymes/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-ia-whatsapp-pymes/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-industrial-ia-pymes/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-inmobiliarias-leads-portales-whatsapp/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-inteligente-tareas-repetitivas/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-logistica-ia-pymes-servicios/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-negocios-ia-pymes-servicios/</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-no-code-flujos-ia-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-procesos-con-ia-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-procesos-contables-ia-pymes/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-procesos-pontevedra-pymes-servicios/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-redes-sociales-ia-pymes/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-reformas-instaladoras-presupuestos-visitas/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-tareas-ia-vs-procesos-pymes/</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-tiktok-ia-pymes-servicios/</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizacion-youtube-ia-pymes/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizaciones-que-recuperan-tiempo-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizar-cobros-recordatorios-pago-pymes/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/automatizar-presupuestos-seguimiento-pymes/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/calcular-roi-automatizacion-ia/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/chatbot-ia-atencion-cliente-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/chatgpt-vs-otras-ia-empresa/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/como-funciona-automatizacion-con-ia-empresa/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/como-saber-que-proceso-automatizar-primero/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/comparativa-automatizacion-ia-atencion-cliente-pymes/</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/confirmacion-citas-whatsapp-clinicas/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/crm-no-falla-falla-el-proceso/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/cuanto-cuesta-automatizar-procesos-pyme/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/curso-automatizacion-ia-pymes-delegar/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/diferencia-digitalizacion-automatizacion-ia-pymes/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/documentar-procesos-pyme-sin-complicarse/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/ejemplos-automatizacion-ia-atencion-ventas-administracion/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/errores-automatizar-empresa-primera-vez/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/gestion-documental-ia-automatizacion-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/herramientas-automatizacion-ia-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/herramientas-desconectadas-equipo-va-tarde/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/hubspot-ia-crm-pymes/</loc>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/ia-automatizacion-diferencias-trabajan-juntas/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/</loc>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/ia-local-automatizacion-procesos-pymes/</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/ia-mas-usadas-empresas-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/ia-para-pymes-cuando-tiene-sentido/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/integrar-calendario-email-crm-pymes/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/kit-digital-automatizacion-ia-pymes/</loc>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/lead-scoring-ia-pymes/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/mantenimiento-automatizaciones-ia-pymes/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/manychat-automatizacion-ia-pymes/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/mensajes-automaticos-clientes-cuando-ayudan-molestan/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/microsoft-power-platform-agentes-ia-pymes/</loc>
+    <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/n8n-vs-make-automatizacion-ia-pymes/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/onboarding-clientes-pymes-servicios-automatizado/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/piloto-automatizacion-ia-pymes/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/por-que-las-pymes-pierden-clientes-antes-de-firmar/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/power-automate-ia-microsoft-365-pymes/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/preparar-datos-empresa-automatizar-ia/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/que-es-automatizacion-con-ia-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/reactivar-leads-frios-sin-perseguir/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/reducir-ausencias-clinicas-recordatorios-automaticos/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/seguimiento-leads-pymes-cuando-insistir/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/seguimiento-pacientes-clinicas-antes-despues-cita/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/seguridad-datos-automatizacion-ia-pymes/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/servicios-consultoria-automatizacion-ia-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/sistema-automatizado-ia-pyme/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/software-rpa-ia-pymes-antes-comprar/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/tareas-manuales-que-frenan-tu-negocio/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/tidio-chatbot-ia-pymes/</loc>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/tipos-automatizacion-empresa-reglas-ia-rpa/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/tipos-ia-pymes-servicios/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/todo-depende-de-una-sola-persona/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/blog/whatsapp-business-app-vs-api-pymes/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/blog/zapier-automatizacion-ia-pymes/</loc>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/centros-estetica/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://kairas.es/contacto/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kairas.es/cookies/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
     <loc>https://kairas.es/crm-pymes-seguimiento-clientes/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kairas.es/faq/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kairas.es/ia-empresas/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://kairas.es/llms.txt</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/okf/blog-clusters.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/okf/company.md</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/okf/faq.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/okf/index.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://kairas.es/okf/services.md</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/optimizacion-operativa-pymes/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kairas.es/prensa/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/pricing.md</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/privacidad/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://kairas.es/servicios/</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

@@ -21,5 +21,9 @@ Allow: /
 
 User-agent: *
 Allow: /
+Allow: /llms.txt
+Allow: /answers.md
+Allow: /pricing.md
+Allow: /okf/
 
 Sitemap: https://kairas.es/sitemap.xml

@@ -108,6 +108,12 @@ const pageMap: Record<string, PageLoader> = {
   'blog-comparativa-atencion-ia': () => import('./BlogPostKeywordCluster6'),
   'blog-ia-local-procesos': () => import('./BlogPostKeywordCluster6'),
   'blog-tareas-vs-procesos-ia': () => import('./BlogPostKeywordCluster6'),
+  'blog-zapier-ia-pymes': () => import('./BlogPostKeywordCluster7'),
+  'blog-hubspot-ia-pymes': () => import('./BlogPostKeywordCluster7'),
+  'blog-tidio-chatbot-ia-pymes': () => import('./BlogPostKeywordCluster7'),
+  'blog-kit-digital-automatizacion-ia': () => import('./BlogPostKeywordCluster8'),
+  'blog-flujos-trabajo-ia-pymes': () => import('./BlogPostKeywordCluster8'),
+  'blog-power-platform-agentes-ia': () => import('./BlogPostKeywordCluster8'),
 };
 
 const rootEl = document.getElementById('root')!;

@@ -27,6 +27,12 @@ const PRIORITY_MAP = {
   '/automatizacion-clinicas/': { changefreq: 'monthly', priority: '0.7' },
   '/centros-estetica/': { changefreq: 'weekly', priority: '0.9' },
   '/blog/': { changefreq: 'weekly', priority: '0.7' },
+  '/blog/kit-digital-automatizacion-ia-pymes/': { changefreq: 'monthly', priority: '0.6' },
+  '/blog/ia-automatizacion-flujos-trabajo-pymes/': { changefreq: 'monthly', priority: '0.6' },
+  '/blog/microsoft-power-platform-agentes-ia-pymes/': { changefreq: 'monthly', priority: '0.6' },
+  '/blog/zapier-automatizacion-ia-pymes/': { changefreq: 'monthly', priority: '0.6' },
+  '/blog/hubspot-ia-crm-pymes/': { changefreq: 'monthly', priority: '0.6' },
+  '/blog/tidio-chatbot-ia-pymes/': { changefreq: 'monthly', priority: '0.6' },
   '/blog/automatizaciones-que-recuperan-tiempo-pymes/': { changefreq: 'monthly', priority: '0.6' },
   '/blog/por-que-las-pymes-pierden-clientes-antes-de-firmar/': { changefreq: 'monthly', priority: '0.6' },
   '/blog/dejar-de-gestionar-whatsapp-empresa-a-mano/': { changefreq: 'monthly', priority: '0.6' },
@@ -121,7 +127,20 @@ const PRIORITY_MAP = {
   '/aviso-legal/': { changefreq: 'yearly', priority: '0.3' },
   '/cookies/': { changefreq: 'yearly', priority: '0.1' }
 };
+
+const STATIC_INDEXABLE_FILES = [
+  { pathname: '/llms.txt', sourcePath: 'public/llms.txt', changefreq: 'monthly', priority: '0.4' },
+  { pathname: '/answers.md', sourcePath: 'public/answers.md', changefreq: 'monthly', priority: '0.4' },
+  { pathname: '/pricing.md', sourcePath: 'public/pricing.md', changefreq: 'monthly', priority: '0.4' },
+  { pathname: '/okf/index.md', sourcePath: 'public/okf/index.md', changefreq: 'monthly', priority: '0.4' },
+  { pathname: '/okf/company.md', sourcePath: 'public/okf/company.md', changefreq: 'monthly', priority: '0.4' },
+  { pathname: '/okf/services.md', sourcePath: 'public/okf/services.md', changefreq: 'monthly', priority: '0.4' },
+  { pathname: '/okf/blog-clusters.md', sourcePath: 'public/okf/blog-clusters.md', changefreq: 'monthly', priority: '0.4' },
+  { pathname: '/okf/faq.md', sourcePath: 'public/okf/faq.md', changefreq: 'monthly', priority: '0.4' }
+];
+
 const REQUIRED_CANONICAL_PATHS = Object.keys(PRIORITY_MAP);
+const REQUIRED_STATIC_PATHS = STATIC_INDEXABLE_FILES.map((file) => file.pathname);
 
 function toPosix(p) {
   return p.split(path.sep).join('/');
@@ -199,6 +218,23 @@ for (const filePath of walk(ROOT)) {
   }
 }
 
+for (const file of STATIC_INDEXABLE_FILES) {
+  const filePath = path.join(ROOT, file.sourcePath);
+  if (!fs.existsSync(filePath)) {
+    continue;
+  }
+
+  const stats = fs.statSync(filePath);
+  seen.set(file.pathname, {
+    canonical: `${SITE_URL}${file.pathname}`,
+    mtimeMs: stats.mtimeMs,
+    lastmod: formatDate(stats.mtime),
+    sourcePath: file.sourcePath,
+    changefreq: file.changefreq,
+    priority: file.priority
+  });
+}
+
 const urls = Array.from(seen.entries())
   .sort(([a], [b]) => {
     if (a === '/') return -1;
@@ -206,7 +242,10 @@ const urls = Array.from(seen.entries())
     return a.localeCompare(b);
   })
   .map(([pathname, data]) => {
-    const defaults = PRIORITY_MAP[pathname] ?? { changefreq: 'monthly', priority: '0.5' };
+    const defaults = {
+      changefreq: data.changefreq ?? PRIORITY_MAP[pathname]?.changefreq ?? 'monthly',
+      priority: data.priority ?? PRIORITY_MAP[pathname]?.priority ?? '0.5'
+    };
     return {
       loc: data.canonical,
       lastmod: data.lastmod,
@@ -217,9 +256,10 @@ const urls = Array.from(seen.entries())
   });
 
 const missingRequiredPaths = REQUIRED_CANONICAL_PATHS.filter((pathname) => !seen.has(pathname));
-if (missingRequiredPaths.length > 0) {
+const missingStaticPaths = REQUIRED_STATIC_PATHS.filter((pathname) => !seen.has(pathname));
+if (missingRequiredPaths.length > 0 || missingStaticPaths.length > 0) {
   console.error('Sitemap generation failed. Missing required canonical paths:');
-  for (const pathname of missingRequiredPaths) {
+  for (const pathname of [...missingRequiredPaths, ...missingStaticPaths]) {
     console.error(`- ${SITE_URL}${pathname}`);
   }
   process.exit(1);

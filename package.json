@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run sitemap && vite build",
+    "aeo": "node scripts/optimize-aeo-geo.mjs",
+    "build": "npm run aeo && npm run sitemap && vite build",
+    "validate:aeo": "node scripts/validate-aeo-geo.mjs",
     "sitemap": "node scripts/generate-sitemap.mjs",
     "preview": "vite preview"
   },
