@@ -114,6 +114,9 @@ const pageMap: Record<string, PageLoader> = {
   'blog-kit-digital-automatizacion-ia': () => import('./BlogPostKeywordCluster8'),
   'blog-flujos-trabajo-ia-pymes': () => import('./BlogPostKeywordCluster8'),
   'blog-power-platform-agentes-ia': () => import('./BlogPostKeywordCluster8'),
+  'blog-wordpress-automatizacion-ia': () => import('./BlogPostKeywordCluster9'),
+  'blog-automatizacion-web-ia-leads': () => import('./BlogPostKeywordCluster9'),
+  'blog-macros-scripts-ia-pymes': () => import('./BlogPostKeywordCluster9'),
 };
 
 const rootEl = document.getElementById('root')!;

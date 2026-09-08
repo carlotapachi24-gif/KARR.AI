@@ -72,6 +72,33 @@ const CATEGORIES: BlogCategory[] = [
 
 const POSTS = [
   {
+    slug: '/blog/wordpress-automatizacion-ia-pymes/',
+    title: 'WordPress y automatizacion con IA para pymes: de formularios a seguimiento',
+    date: '2026-09-09',
+    dateLabel: '9 septiembre 2026',
+    desc: 'Como convertir formularios, reservas y mensajes de una web WordPress en CRM, tareas y avisos con control.',
+    tags: ['WordPress', 'IA', 'CRM'],
+    category: 'crm',
+  },
+  {
+    slug: '/blog/automatizacion-web-ia-leads-pymes/',
+    title: 'Automatizacion web con IA para pymes: de la visita al seguimiento',
+    date: '2026-09-09',
+    dateLabel: '9 septiembre 2026',
+    desc: 'Como conectar formularios, chats y descargas con CRM, prioridades y responsables para no perder leads.',
+    tags: ['Web', 'Leads', 'IA'],
+    category: 'crm',
+  },
+  {
+    slug: '/blog/macros-scripts-automatizacion-ia-pymes/',
+    title: 'Macros, scripts y automatizacion con IA: cuando cambiar el enfoque',
+    date: '2026-09-09',
+    dateLabel: '9 septiembre 2026',
+    desc: 'Como decidir entre macros de Excel, scripts puntuales, no-code o un sistema con IA mantenible.',
+    tags: ['Macros', 'Scripts', 'IA'],
+    category: 'procesos',
+  },
+  {
     slug: '/blog/kit-digital-automatizacion-ia-pymes/',
     title: 'Kit Digital y automatizacion con IA para pymes: que revisar antes de invertir',
     date: '2026-09-05',

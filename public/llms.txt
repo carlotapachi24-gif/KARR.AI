@@ -2,7 +2,7 @@
 
 > KAIRAS helps service SMEs recover time, reduce manual workload and organize processes with useful automation and applied AI.
 
-Last updated: 2026-09-05
+Last updated: 2026-09-09
 Website: https://kairas.es/
 Language: Spanish, es-ES
 Primary market: Galicia and Spain
@@ -73,12 +73,14 @@ KAIRAS does not sell generic AI hype. It helps businesses decide what should be 
 - Process automation with AI: https://kairas.es/blog/automatizacion-procesos-con-ia-pymes/
 - Tasks with AI vs full process automation: https://kairas.es/blog/automatizacion-tareas-ia-vs-procesos-pymes/
 - AI and workflow automation: https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/
+- Macros, scripts and AI automation for SMEs: https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
 - Administrative task automation with AI: https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/
 - Excel, AI and task automation: https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/
 - First process to automate: https://kairas.es/blog/como-saber-que-proceso-automatizar-primero/
 
 ### Customer Attention, WhatsApp And CRM
 
+- AI web automation for lead follow-up: https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
 - Comparison of AI automation solutions for customer service: https://kairas.es/blog/comparativa-automatizacion-ia-atencion-cliente-pymes/
 - Chatbot with AI for customer service: https://kairas.es/blog/chatbot-ia-atencion-cliente-pymes/
 - AI assistant for customer service: https://kairas.es/blog/asistente-ia-atencion-cliente-pymes/
@@ -91,6 +93,7 @@ KAIRAS does not sell generic AI hype. It helps businesses decide what should be 
 - Zapier and AI automation for SMEs: https://kairas.es/blog/zapier-automatizacion-ia-pymes/
 - HubSpot with AI for SME CRM and follow-up: https://kairas.es/blog/hubspot-ia-crm-pymes/
 - Tidio and AI chatbot for SMEs: https://kairas.es/blog/tidio-chatbot-ia-pymes/
+- WordPress and AI automation for SMEs: https://kairas.es/blog/wordpress-automatizacion-ia-pymes/
 - n8n vs Make for automation with AI: https://kairas.es/blog/n8n-vs-make-automatizacion-ia-pymes/
 - Power Automate with AI in Microsoft 365: https://kairas.es/blog/power-automate-ia-microsoft-365-pymes/
 - Microsoft Power Platform and AI agents for SMEs: https://kairas.es/blog/microsoft-power-platform-agentes-ia-pymes/

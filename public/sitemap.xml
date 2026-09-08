@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://kairas.es/answers.md</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://kairas.es/blog/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -271,6 +271,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/blog/automatizacion-web-ia-leads-pymes/</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/blog/automatizacion-youtube-ia-pymes/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -469,6 +475,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/blog/mantenimiento-automatizaciones-ia-pymes/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -619,6 +631,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kairas.es/blog/wordpress-automatizacion-ia-pymes/</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kairas.es/blog/zapier-automatizacion-ia-pymes/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -662,13 +680,13 @@
   </url>
   <url>
     <loc>https://kairas.es/llms.txt</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://kairas.es/okf/blog-clusters.md</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -680,19 +698,19 @@
   </url>
   <url>
     <loc>https://kairas.es/okf/faq.md</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://kairas.es/okf/index.md</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://kairas.es/okf/services.md</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>

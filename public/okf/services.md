@@ -1,6 +1,6 @@
 # KAIRAS Services
 
-Last updated: 2026-09-05
+Last updated: 2026-09-09
 Canonical URL: https://kairas.es/okf/services.md
 
 ## Service Overview
@@ -26,6 +26,9 @@ Related content:
 - Kit Digital and AI automation: https://kairas.es/blog/kit-digital-automatizacion-ia-pymes/
 - AI workflow automation: https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/
 - Microsoft Power Platform and AI agents: https://kairas.es/blog/microsoft-power-platform-agentes-ia-pymes/
+- WordPress and AI automation: https://kairas.es/blog/wordpress-automatizacion-ia-pymes/
+- AI web automation for lead follow-up: https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
+- Macros, scripts and AI automation: https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
 
 ### WhatsApp Automation
 
@@ -38,6 +41,11 @@ KAIRAS helps companies answer, filter, route and follow up WhatsApp conversation
 URL: https://kairas.es/crm-pymes-seguimiento-clientes/
 
 KAIRAS builds follow-up systems so leads and customers have context, responsible owner, next step and cadence.
+
+Related content:
+
+- AI web automation for lead follow-up: https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
+- WordPress and AI automation: https://kairas.es/blog/wordpress-automatizacion-ia-pymes/
 
 ### Clinic Automation
 

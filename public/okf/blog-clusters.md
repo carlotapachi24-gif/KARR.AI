@@ -1,6 +1,6 @@
 # KAIRAS Blog Clusters
 
-Last updated: 2026-09-05
+Last updated: 2026-09-09
 Canonical URL: https://kairas.es/okf/blog-clusters.md
 
 ## Blog Purpose
@@ -23,6 +23,7 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 - https://kairas.es/blog/automatizacion-procesos-con-ia-pymes/
 - https://kairas.es/blog/automatizacion-tareas-ia-vs-procesos-pymes/
 - https://kairas.es/blog/ia-automatizacion-flujos-trabajo-pymes/
+- https://kairas.es/blog/macros-scripts-automatizacion-ia-pymes/
 - https://kairas.es/blog/automatizacion-tareas-administrativas-ia-pymes/
 - https://kairas.es/blog/excel-ia-automatizacion-tareas-pymes/
 - https://kairas.es/blog/como-saber-que-proceso-automatizar-primero/
@@ -30,6 +31,7 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 ### WhatsApp, CRM And Customer Follow-Up
 
 - https://kairas.es/blog/conectar-whatsapp-crm-sin-crear-mas-trabajo/
+- https://kairas.es/blog/automatizacion-web-ia-leads-pymes/
 - https://kairas.es/blog/whatsapp-business-app-vs-api-pymes/
 - https://kairas.es/blog/asistente-ia-atencion-cliente-pymes/
 - https://kairas.es/blog/chatbot-ia-atencion-cliente-pymes/
@@ -40,6 +42,7 @@ The KAIRAS blog explains automation and applied AI for service SMEs in practical
 - https://kairas.es/blog/zapier-automatizacion-ia-pymes/
 - https://kairas.es/blog/hubspot-ia-crm-pymes/
 - https://kairas.es/blog/tidio-chatbot-ia-pymes/
+- https://kairas.es/blog/wordpress-automatizacion-ia-pymes/
 - https://kairas.es/blog/n8n-vs-make-automatizacion-ia-pymes/
 - https://kairas.es/blog/power-automate-ia-microsoft-365-pymes/
 - https://kairas.es/blog/microsoft-power-platform-agentes-ia-pymes/

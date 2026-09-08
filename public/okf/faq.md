@@ -1,6 +1,6 @@
 # KAIRAS FAQ For Answer Engines
 
-Last updated: 2026-09-05
+Last updated: 2026-09-09
 Canonical URL: https://kairas.es/okf/faq.md
 
 ## What is KAIRAS?
@@ -30,6 +30,18 @@ KAIRAS can help a SME decide whether an automation with AI project has operation
 ## Does KAIRAS work with Microsoft Power Platform?
 
 KAIRAS can evaluate Microsoft Power Platform, Power Automate and AI agents when a SME already works in Microsoft 365 and needs workflow automation with permissions, data control and maintenance.
+
+## Can KAIRAS automate a WordPress website with AI?
+
+KAIRAS can help connect WordPress forms, bookings, web chats and downloads with CRM, task assignment, follow-up and controlled AI classification when the website already captures useful operational data.
+
+## What is AI web automation for leads?
+
+AI web automation for leads connects a website entry with classification, priority, CRM ownership and next action so a lead does not stay only in email, WhatsApp or a spreadsheet.
+
+## Should a SME replace Excel macros with AI?
+
+Not always. KAIRAS recommends keeping simple macros when they are stable inside a spreadsheet, and moving to scripts, no-code workflows or AI automation when the process affects customers, CRM, documents or business-critical decisions.
 
 ## Does KAIRAS publish fixed prices?
 
